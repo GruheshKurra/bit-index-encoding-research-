@@ -198,4 +198,4 @@ For questions or collaboration opportunities, please contact [your email].
 
 ---
 
-**Note**: This is a research implementation. For production use, consider additional optimizations and testing.
+**Note**: This is a research implementation. For production use, consider additional optimizations and testing.# bit-index-encoding-research-
