@@ -1,0 +1,5268 @@
+{
+  "compression": {
+    "dense_256x256": {
+      "bie_binary": {
+        "encode_time": 0.0002357959747314453,
+        "compressed_size": 131216,
+        "compression_ratio": 1.9978051457139374,
+        "space_savings_percent": 49.945068359375
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.00400996208190918,
+        "compressed_size": 1052200,
+        "compression_ratio": 0.24913894696825697,
+        "space_savings_percent": -301.3824462890625
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.0003330707550048828,
+        "compressed_size": 523732,
+        "compression_ratio": 0.5005308058319904,
+        "space_savings_percent": -99.78790283203125
+      },
+      "bie_blocked_binary": {
+        "encode_time": 8.392333984375e-05,
+        "compressed_size": 262144,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 5.1021575927734375e-05,
+        "compressed_size": 262144,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 5.9604644775390625e-06,
+        "compressed_size": 262144,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 0.00010585784912109375,
+        "compressed_size": 131072,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 0.00012087821960449219,
+        "compressed_size": 65544,
+        "compression_ratio": 3.9995117783473697,
+        "space_savings_percent": 74.9969482421875
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 5.91278076171875e-05,
+        "compressed_size": 65544,
+        "compression_ratio": 3.9995117783473697,
+        "space_savings_percent": 74.9969482421875
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    },
+    "sparse_0.0_256x256": {
+      "bie_binary": {
+        "encode_time": 0.0002770423889160156,
+        "compressed_size": 131216,
+        "compression_ratio": 1.9978051457139374,
+        "space_savings_percent": 49.945068359375
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.0007290840148925781,
+        "compressed_size": 1052200,
+        "compression_ratio": 0.24913894696825697,
+        "space_savings_percent": -301.3824462890625
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.0002949237823486328,
+        "compressed_size": 523732,
+        "compression_ratio": 0.5005308058319904,
+        "space_savings_percent": -99.78790283203125
+      },
+      "bie_blocked_binary": {
+        "encode_time": 6.413459777832031e-05,
+        "compressed_size": 262144,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 4.7206878662109375e-05,
+        "compressed_size": 262144,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 5.9604644775390625e-06,
+        "compressed_size": 262144,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 9.703636169433594e-05,
+        "compressed_size": 131072,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 6.008148193359375e-05,
+        "compressed_size": 65544,
+        "compression_ratio": 3.9995117783473697,
+        "space_savings_percent": 74.9969482421875
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 6.890296936035156e-05,
+        "compressed_size": 65544,
+        "compression_ratio": 3.9995117783473697,
+        "space_savings_percent": 74.9969482421875
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    },
+    "sparse_0.3_256x256": {
+      "bie_binary": {
+        "encode_time": 0.00011587142944335938,
+        "compressed_size": 91596,
+        "compression_ratio": 2.861959037512555,
+        "space_savings_percent": 65.05889892578125
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.0006198883056640625,
+        "compressed_size": 894144,
+        "compression_ratio": 0.29317872736382505,
+        "space_savings_percent": -241.0888671875
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.00026988983154296875,
+        "compressed_size": 445780,
+        "compression_ratio": 0.5880568890484096,
+        "space_savings_percent": -70.05157470703125
+      },
+      "bie_blocked_binary": {
+        "encode_time": 5.7220458984375e-05,
+        "compressed_size": 262144,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 4.00543212890625e-05,
+        "compressed_size": 262144,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 5.7220458984375e-06,
+        "compressed_size": 262144,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 0.0001780986785888672,
+        "compressed_size": 131072,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 7.200241088867188e-05,
+        "compressed_size": 65544,
+        "compression_ratio": 3.9995117783473697,
+        "space_savings_percent": 74.9969482421875
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 6.794929504394531e-05,
+        "compressed_size": 65544,
+        "compression_ratio": 3.9995117783473697,
+        "space_savings_percent": 74.9969482421875
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    },
+    "sparse_0.5_256x256": {
+      "bie_binary": {
+        "encode_time": 7.510185241699219e-05,
+        "compressed_size": 65764,
+        "compression_ratio": 3.9861322303996105,
+        "space_savings_percent": 74.91302490234375
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.0004200935363769531,
+        "compressed_size": 788888,
+        "compression_ratio": 0.332295585685167,
+        "space_savings_percent": -200.9368896484375
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.00026416778564453125,
+        "compressed_size": 652860,
+        "compression_ratio": 0.4015317219618295,
+        "space_savings_percent": -149.04632568359375
+      },
+      "bie_blocked_binary": {
+        "encode_time": 0.0002880096435546875,
+        "compressed_size": 66244,
+        "compression_ratio": 3.957248958396232,
+        "space_savings_percent": 74.72991943359375
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 4.887580871582031e-05,
+        "compressed_size": 262144,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 4.76837158203125e-06,
+        "compressed_size": 262144,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 0.0002720355987548828,
+        "compressed_size": 131072,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 8.296966552734375e-05,
+        "compressed_size": 65544,
+        "compression_ratio": 3.9995117783473697,
+        "space_savings_percent": 74.9969482421875
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 7.891654968261719e-05,
+        "compressed_size": 65544,
+        "compression_ratio": 3.9995117783473697,
+        "space_savings_percent": 74.9969482421875
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    },
+    "sparse_0.7_256x256": {
+      "bie_binary": {
+        "encode_time": 9.179115295410156e-05,
+        "compressed_size": 39888,
+        "compression_ratio": 6.572001604492579,
+        "space_savings_percent": 84.783935546875
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.00047206878662109375,
+        "compressed_size": 1414104,
+        "compression_ratio": 0.18537816171936436,
+        "space_savings_percent": -439.4378662109375
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.0002510547637939453,
+        "compressed_size": 706392,
+        "compression_ratio": 0.3711027304952491,
+        "space_savings_percent": -169.4671630859375
+      },
+      "bie_blocked_binary": {
+        "encode_time": 0.00022721290588378906,
+        "compressed_size": 40368,
+        "compression_ratio": 6.4938565200158544,
+        "space_savings_percent": 84.600830078125
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 0.0007622241973876953,
+        "compressed_size": 607156,
+        "compression_ratio": 0.4317572419608799,
+        "space_savings_percent": -131.61163330078125
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 6.9141387939453125e-06,
+        "compressed_size": 262144,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 0.0002410411834716797,
+        "compressed_size": 131072,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 8.702278137207031e-05,
+        "compressed_size": 65544,
+        "compression_ratio": 3.9995117783473697,
+        "space_savings_percent": 74.9969482421875
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 7.915496826171875e-05,
+        "compressed_size": 65544,
+        "compression_ratio": 3.9995117783473697,
+        "space_savings_percent": 74.9969482421875
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    },
+    "sparse_0.9_256x256": {
+      "bie_binary": {
+        "encode_time": 0.00012373924255371094,
+        "compressed_size": 13208,
+        "compression_ratio": 19.847365233192004,
+        "space_savings_percent": 94.9615478515625
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.0005879402160644531,
+        "compressed_size": 1050296,
+        "compression_ratio": 0.2495905916046524,
+        "space_savings_percent": -300.6561279296875
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.0002770423889160156,
+        "compressed_size": 288768,
+        "compression_ratio": 0.9078014184397163,
+        "space_savings_percent": -10.15625
+      },
+      "bie_blocked_binary": {
+        "encode_time": 0.00024700164794921875,
+        "compressed_size": 13688,
+        "compression_ratio": 19.151373465809467,
+        "space_savings_percent": 94.7784423828125
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 0.001483917236328125,
+        "compressed_size": 1049388,
+        "compression_ratio": 0.2498065539152344,
+        "space_savings_percent": -300.30975341796875
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 4.76837158203125e-06,
+        "compressed_size": 262144,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 0.0001342296600341797,
+        "compressed_size": 131072,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 4.982948303222656e-05,
+        "compressed_size": 65544,
+        "compression_ratio": 3.9995117783473697,
+        "space_savings_percent": 74.9969482421875
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 4.792213439941406e-05,
+        "compressed_size": 65544,
+        "compression_ratio": 3.9995117783473697,
+        "space_savings_percent": 74.9969482421875
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    },
+    "sparse_0.95_256x256": {
+      "bie_binary": {
+        "encode_time": 7.915496826171875e-05,
+        "compressed_size": 6716,
+        "compression_ratio": 39.03275759380584,
+        "space_savings_percent": 97.43804931640625
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.0004742145538330078,
+        "compressed_size": 551312,
+        "compression_ratio": 0.4754911919203645,
+        "space_savings_percent": -110.308837890625
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.00024199485778808594,
+        "compressed_size": 275524,
+        "compression_ratio": 0.951437987253379,
+        "space_savings_percent": -5.10406494140625
+      },
+      "bie_blocked_binary": {
+        "encode_time": 0.0002110004425048828,
+        "compressed_size": 7196,
+        "compression_ratio": 36.42912729294052,
+        "space_savings_percent": 97.25494384765625
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 0.0012249946594238281,
+        "compressed_size": 957068,
+        "compression_ratio": 0.27390321272887613,
+        "space_savings_percent": -265.09246826171875
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 5.0067901611328125e-06,
+        "compressed_size": 262144,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 0.000125885009765625,
+        "compressed_size": 131072,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 4.792213439941406e-05,
+        "compressed_size": 65544,
+        "compression_ratio": 3.9995117783473697,
+        "space_savings_percent": 74.9969482421875
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 4.7206878662109375e-05,
+        "compressed_size": 65544,
+        "compression_ratio": 3.9995117783473697,
+        "space_savings_percent": 74.9969482421875
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    },
+    "dense_512x512": {
+      "bie_binary": {
+        "encode_time": 0.0002989768981933594,
+        "compressed_size": 523464,
+        "compression_ratio": 2.003148258523986,
+        "space_savings_percent": 50.078582763671875
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.002177000045776367,
+        "compressed_size": 4193992,
+        "compression_ratio": 0.2500185980326143,
+        "space_savings_percent": -299.9702453613281
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.0010333061218261719,
+        "compressed_size": 2096832,
+        "compression_ratio": 0.5000763055886213,
+        "space_savings_percent": -99.969482421875
+      },
+      "bie_blocked_binary": {
+        "encode_time": 0.00020503997802734375,
+        "compressed_size": 1048576,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 0.0002071857452392578,
+        "compressed_size": 1048576,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 1.4066696166992188e-05,
+        "compressed_size": 1048576,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 0.0003619194030761719,
+        "compressed_size": 524288,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 0.00026297569274902344,
+        "compressed_size": 262152,
+        "compression_ratio": 3.9998779334126766,
+        "space_savings_percent": 74.99923706054688
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 0.0002512931823730469,
+        "compressed_size": 262152,
+        "compression_ratio": 3.9998779334126766,
+        "space_savings_percent": 74.99923706054688
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    },
+    "sparse_0.0_512x512": {
+      "bie_binary": {
+        "encode_time": 0.0002522468566894531,
+        "compressed_size": 523464,
+        "compression_ratio": 2.003148258523986,
+        "space_savings_percent": 50.078582763671875
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.0017058849334716797,
+        "compressed_size": 4193992,
+        "compression_ratio": 0.2500185980326143,
+        "space_savings_percent": -299.9702453613281
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.0007951259613037109,
+        "compressed_size": 2096832,
+        "compression_ratio": 0.5000763055886213,
+        "space_savings_percent": -99.969482421875
+      },
+      "bie_blocked_binary": {
+        "encode_time": 0.0001900196075439453,
+        "compressed_size": 1048576,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 0.00016689300537109375,
+        "compressed_size": 1048576,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 1.5020370483398438e-05,
+        "compressed_size": 1048576,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 0.0004019737243652344,
+        "compressed_size": 524288,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 0.00031304359436035156,
+        "compressed_size": 262152,
+        "compression_ratio": 3.9998779334126766,
+        "space_savings_percent": 74.99923706054688
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 0.0002658367156982422,
+        "compressed_size": 262152,
+        "compression_ratio": 3.9998779334126766,
+        "space_savings_percent": 74.99923706054688
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    },
+    "sparse_0.3_512x512": {
+      "bie_binary": {
+        "encode_time": 0.00026535987854003906,
+        "compressed_size": 366276,
+        "compression_ratio": 2.862802913649816,
+        "space_savings_percent": 65.06919860839844
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.0015521049499511719,
+        "compressed_size": 4823484,
+        "compression_ratio": 0.21738975396207388,
+        "space_savings_percent": -360.00328063964844
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.0010638236999511719,
+        "compressed_size": 2406148,
+        "compression_ratio": 0.4357903171375992,
+        "space_savings_percent": -129.46815490722656
+      },
+      "bie_blocked_binary": {
+        "encode_time": 0.00019407272338867188,
+        "compressed_size": 1048576,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 0.00016689300537109375,
+        "compressed_size": 1048576,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 1.621246337890625e-05,
+        "compressed_size": 1048576,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 0.0007109642028808594,
+        "compressed_size": 524288,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 0.0002799034118652344,
+        "compressed_size": 262152,
+        "compression_ratio": 3.9998779334126766,
+        "space_savings_percent": 74.99923706054688
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 0.0002560615539550781,
+        "compressed_size": 262152,
+        "compression_ratio": 3.9998779334126766,
+        "space_savings_percent": 74.99923706054688
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    },
+    "sparse_0.5_512x512": {
+      "bie_binary": {
+        "encode_time": 0.00023794174194335938,
+        "compressed_size": 260784,
+        "compression_ratio": 4.0208601754708875,
+        "space_savings_percent": 75.12969970703125
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.0021250247955322266,
+        "compressed_size": 5768936,
+        "compression_ratio": 0.18176246018329897,
+        "space_savings_percent": -450.1686096191406
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.0011210441589355469,
+        "compressed_size": 2621408,
+        "compression_ratio": 0.4000048828721054,
+        "space_savings_percent": -149.9969482421875
+      },
+      "bie_blocked_binary": {
+        "encode_time": 0.0009219646453857422,
+        "compressed_size": 262800,
+        "compression_ratio": 3.990015220700152,
+        "space_savings_percent": 74.93743896484375
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 0.0001647472381591797,
+        "compressed_size": 1048576,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 1.3113021850585938e-05,
+        "compressed_size": 1048576,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 0.0009741783142089844,
+        "compressed_size": 524288,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 0.00023484230041503906,
+        "compressed_size": 262152,
+        "compression_ratio": 3.9998779334126766,
+        "space_savings_percent": 74.99923706054688
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 0.00025081634521484375,
+        "compressed_size": 262152,
+        "compression_ratio": 3.9998779334126766,
+        "space_savings_percent": 74.99923706054688
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    },
+    "sparse_0.7_512x512": {
+      "bie_binary": {
+        "encode_time": 0.00022912025451660156,
+        "compressed_size": 155656,
+        "compression_ratio": 6.736495862671532,
+        "space_savings_percent": 85.15548706054688
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.0014221668243408203,
+        "compressed_size": 2727004,
+        "compression_ratio": 0.3845157542856556,
+        "space_savings_percent": -160.06736755371094
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.0009007453918457031,
+        "compressed_size": 2828308,
+        "compression_ratio": 0.3707432146711037,
+        "space_savings_percent": -169.7284698486328
+      },
+      "bie_blocked_binary": {
+        "encode_time": 0.0008552074432373047,
+        "compressed_size": 157672,
+        "compression_ratio": 6.6503627784261,
+        "space_savings_percent": 84.96322631835938
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 0.0031070709228515625,
+        "compressed_size": 2498028,
+        "compression_ratio": 0.41976150787741373,
+        "space_savings_percent": -138.2305145263672
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 1.4066696166992188e-05,
+        "compressed_size": 1048576,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 0.0007071495056152344,
+        "compressed_size": 524288,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 0.00025534629821777344,
+        "compressed_size": 262152,
+        "compression_ratio": 3.9998779334126766,
+        "space_savings_percent": 74.99923706054688
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 0.00024580955505371094,
+        "compressed_size": 262152,
+        "compression_ratio": 3.9998779334126766,
+        "space_savings_percent": 74.99923706054688
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    },
+    "sparse_0.9_512x512": {
+      "bie_binary": {
+        "encode_time": 0.0004971027374267578,
+        "compressed_size": 52492,
+        "compression_ratio": 19.97592014021184,
+        "space_savings_percent": 94.99397277832031
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.0018208026885986328,
+        "compressed_size": 2307076,
+        "compression_ratio": 0.45450431628606947,
+        "space_savings_percent": -120.01991271972656
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.0010709762573242188,
+        "compressed_size": 3039496,
+        "compression_ratio": 0.34498351042409664,
+        "space_savings_percent": -189.86892700195312
+      },
+      "bie_blocked_binary": {
+        "encode_time": 0.0008759498596191406,
+        "compressed_size": 54508,
+        "compression_ratio": 19.23710281059661,
+        "space_savings_percent": 94.80171203613281
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 0.0059871673583984375,
+        "compressed_size": 4287312,
+        "compression_ratio": 0.24457655519355717,
+        "space_savings_percent": -308.86993408203125
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 1.5020370483398438e-05,
+        "compressed_size": 1048576,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 0.00042891502380371094,
+        "compressed_size": 524288,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 0.00026297569274902344,
+        "compressed_size": 262152,
+        "compression_ratio": 3.9998779334126766,
+        "space_savings_percent": 74.99923706054688
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 0.0002608299255371094,
+        "compressed_size": 262152,
+        "compression_ratio": 3.9998779334126766,
+        "space_savings_percent": 74.99923706054688
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    },
+    "sparse_0.95_512x512": {
+      "bie_binary": {
+        "encode_time": 0.0003428459167480469,
+        "compressed_size": 26136,
+        "compression_ratio": 40.11998775635139,
+        "space_savings_percent": 97.50747680664062
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.0016350746154785156,
+        "compressed_size": 4191836,
+        "compression_ratio": 0.25014719087292536,
+        "space_savings_percent": -299.76463317871094
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.0008351802825927734,
+        "compressed_size": 2093784,
+        "compression_ratio": 0.5008042854468274,
+        "space_savings_percent": -99.67880249023438
+      },
+      "bie_blocked_binary": {
+        "encode_time": 0.0007851123809814453,
+        "compressed_size": 28152,
+        "compression_ratio": 37.24694515487354,
+        "space_savings_percent": 97.31521606445312
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 0.005086183547973633,
+        "compressed_size": 4306564,
+        "compression_ratio": 0.2434832037791613,
+        "space_savings_percent": -310.70594787597656
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 1.4781951904296875e-05,
+        "compressed_size": 1048576,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 0.0003800392150878906,
+        "compressed_size": 524288,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 0.00025081634521484375,
+        "compressed_size": 262152,
+        "compression_ratio": 3.9998779334126766,
+        "space_savings_percent": 74.99923706054688
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 0.0002627372741699219,
+        "compressed_size": 262152,
+        "compression_ratio": 3.9998779334126766,
+        "space_savings_percent": 74.99923706054688
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    },
+    "dense_1024x1024": {
+      "bie_binary": {
+        "encode_time": 0.002076864242553711,
+        "compressed_size": 2099888,
+        "compression_ratio": 1.997394146735445,
+        "space_savings_percent": 49.93476867675781
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.010618925094604492,
+        "compressed_size": 16794156,
+        "compression_ratio": 0.2497478289471647,
+        "space_savings_percent": -300.40388107299805
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.005989789962768555,
+        "compressed_size": 8442588,
+        "compression_ratio": 0.49680311297910074,
+        "space_savings_percent": -101.28698348999023
+      },
+      "bie_blocked_binary": {
+        "encode_time": 0.0010941028594970703,
+        "compressed_size": 4194304,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 0.0006048679351806641,
+        "compressed_size": 4194304,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 0.0002319812774658203,
+        "compressed_size": 4194304,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 0.0014739036560058594,
+        "compressed_size": 2097152,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 0.000982046127319336,
+        "compressed_size": 1048584,
+        "compression_ratio": 3.999969482654704,
+        "space_savings_percent": 74.99980926513672
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 0.0009520053863525391,
+        "compressed_size": 1048584,
+        "compression_ratio": 3.999969482654704,
+        "space_savings_percent": 74.99980926513672
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    },
+    "sparse_0.0_1024x1024": {
+      "bie_binary": {
+        "encode_time": 0.001191854476928711,
+        "compressed_size": 2099888,
+        "compression_ratio": 1.997394146735445,
+        "space_savings_percent": 49.93476867675781
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.007158994674682617,
+        "compressed_size": 16794156,
+        "compression_ratio": 0.2497478289471647,
+        "space_savings_percent": -300.40388107299805
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.0034379959106445312,
+        "compressed_size": 8442588,
+        "compression_ratio": 0.49680311297910074,
+        "space_savings_percent": -101.28698348999023
+      },
+      "bie_blocked_binary": {
+        "encode_time": 0.0007169246673583984,
+        "compressed_size": 4194304,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 0.0005917549133300781,
+        "compressed_size": 4194304,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 5.602836608886719e-05,
+        "compressed_size": 4194304,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 0.0014100074768066406,
+        "compressed_size": 2097152,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 0.0006330013275146484,
+        "compressed_size": 1048584,
+        "compression_ratio": 3.999969482654704,
+        "space_savings_percent": 74.99980926513672
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 0.0006022453308105469,
+        "compressed_size": 1048584,
+        "compression_ratio": 3.999969482654704,
+        "space_savings_percent": 74.99980926513672
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    },
+    "sparse_0.3_1024x1024": {
+      "bie_binary": {
+        "encode_time": 0.0010097026824951172,
+        "compressed_size": 1470664,
+        "compression_ratio": 2.8519797860014253,
+        "space_savings_percent": 64.93663787841797
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.007704019546508789,
+        "compressed_size": 18039832,
+        "compression_ratio": 0.2325023869401888,
+        "space_savings_percent": -330.10311126708984
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.004869222640991211,
+        "compressed_size": 9682544,
+        "compression_ratio": 0.43318202323686833,
+        "space_savings_percent": -130.84983825683594
+      },
+      "bie_blocked_binary": {
+        "encode_time": 0.0008988380432128906,
+        "compressed_size": 4194304,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 0.0006840229034423828,
+        "compressed_size": 4194304,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 5.698204040527344e-05,
+        "compressed_size": 4194304,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 0.0027680397033691406,
+        "compressed_size": 2097152,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 0.0009829998016357422,
+        "compressed_size": 1048584,
+        "compression_ratio": 3.999969482654704,
+        "space_savings_percent": 74.99980926513672
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 0.0009400844573974609,
+        "compressed_size": 1048584,
+        "compression_ratio": 3.999969482654704,
+        "space_savings_percent": 74.99980926513672
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    },
+    "sparse_0.5_1024x1024": {
+      "bie_binary": {
+        "encode_time": 0.0009100437164306641,
+        "compressed_size": 1048828,
+        "compression_ratio": 3.9990389272597606,
+        "space_savings_percent": 74.99399185180664
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.008277177810668945,
+        "compressed_size": 18880304,
+        "compression_ratio": 0.2221523551739421,
+        "space_savings_percent": -350.1415252685547
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.0051462650299072266,
+        "compressed_size": 10508664,
+        "compression_ratio": 0.39912818603773037,
+        "space_savings_percent": -150.54607391357422
+      },
+      "bie_blocked_binary": {
+        "encode_time": 0.0036323070526123047,
+        "compressed_size": 1056988,
+        "compression_ratio": 3.9681661475816186,
+        "space_savings_percent": 74.79944229125977
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 0.0006358623504638672,
+        "compressed_size": 4194304,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 5.817413330078125e-05,
+        "compressed_size": 4194304,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 0.0037429332733154297,
+        "compressed_size": 2097152,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 0.0006489753723144531,
+        "compressed_size": 1048584,
+        "compression_ratio": 3.999969482654704,
+        "space_savings_percent": 74.99980926513672
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 0.0005927085876464844,
+        "compressed_size": 1048584,
+        "compression_ratio": 3.999969482654704,
+        "space_savings_percent": 74.99980926513672
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    },
+    "sparse_0.7_1024x1024": {
+      "bie_binary": {
+        "encode_time": 0.0008480548858642578,
+        "compressed_size": 630720,
+        "compression_ratio": 6.650025367833587,
+        "space_savings_percent": 84.96246337890625
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.009041070938110352,
+        "compressed_size": 16772384,
+        "compression_ratio": 0.25007202315425164,
+        "space_savings_percent": -299.8847961425781
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.005882740020751953,
+        "compressed_size": 11325824,
+        "compression_ratio": 0.37033102403851587,
+        "space_savings_percent": -170.0286865234375
+      },
+      "bie_blocked_binary": {
+        "encode_time": 0.0033028125762939453,
+        "compressed_size": 638880,
+        "compression_ratio": 6.565088905584774,
+        "space_savings_percent": 84.76791381835938
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 0.011829853057861328,
+        "compressed_size": 10120856,
+        "compression_ratio": 0.41442186313094465,
+        "space_savings_percent": -141.30001068115234
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 6.818771362304688e-05,
+        "compressed_size": 4194304,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 0.002660036087036133,
+        "compressed_size": 2097152,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 0.001001119613647461,
+        "compressed_size": 1048584,
+        "compression_ratio": 3.999969482654704,
+        "space_savings_percent": 74.99980926513672
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 0.0009579658508300781,
+        "compressed_size": 1048584,
+        "compression_ratio": 3.999969482654704,
+        "space_savings_percent": 74.99980926513672
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    },
+    "sparse_0.9_1024x1024": {
+      "bie_binary": {
+        "encode_time": 0.0015118122100830078,
+        "compressed_size": 209396,
+        "compression_ratio": 20.030487688399013,
+        "space_savings_percent": 95.00761032104492
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.011556863784790039,
+        "compressed_size": 20550424,
+        "compression_ratio": 0.20409817335155714,
+        "space_savings_percent": -389.96028900146484
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.006247282028198242,
+        "compressed_size": 12162156,
+        "compression_ratio": 0.34486517028724184,
+        "space_savings_percent": -189.9683952331543
+      },
+      "bie_blocked_binary": {
+        "encode_time": 0.003355264663696289,
+        "compressed_size": 217556,
+        "compression_ratio": 19.279192483774292,
+        "space_savings_percent": 94.81306076049805
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 0.023921966552734375,
+        "compressed_size": 17278928,
+        "compression_ratio": 0.24274098485739393,
+        "space_savings_percent": -311.9617462158203
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 7.700920104980469e-05,
+        "compressed_size": 4194304,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 0.0017299652099609375,
+        "compressed_size": 2097152,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 0.0006339550018310547,
+        "compressed_size": 1048584,
+        "compression_ratio": 3.999969482654704,
+        "space_savings_percent": 74.99980926513672
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 0.00061798095703125,
+        "compressed_size": 1048584,
+        "compression_ratio": 3.999969482654704,
+        "space_savings_percent": 74.99980926513672
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    },
+    "sparse_0.95_1024x1024": {
+      "bie_binary": {
+        "encode_time": 0.002126932144165039,
+        "compressed_size": 105176,
+        "compression_ratio": 39.87890773560508,
+        "space_savings_percent": 97.4924087524414
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.009605884552001953,
+        "compressed_size": 16774488,
+        "compression_ratio": 0.2500406569786213,
+        "space_savings_percent": -299.9349594116211
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.005953073501586914,
+        "compressed_size": 12368196,
+        "compression_ratio": 0.33912011096848726,
+        "space_savings_percent": -194.8807716369629
+      },
+      "bie_blocked_binary": {
+        "encode_time": 0.0035109519958496094,
+        "compressed_size": 113336,
+        "compression_ratio": 37.00769393661326,
+        "space_savings_percent": 97.29785919189453
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 0.020952701568603516,
+        "compressed_size": 17056424,
+        "compression_ratio": 0.24590758297284354,
+        "space_savings_percent": -306.6568374633789
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 7.295608520507812e-05,
+        "compressed_size": 4194304,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 0.001447916030883789,
+        "compressed_size": 2097152,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 0.0009169578552246094,
+        "compressed_size": 1048584,
+        "compression_ratio": 3.999969482654704,
+        "space_savings_percent": 74.99980926513672
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 0.0009021759033203125,
+        "compressed_size": 1048584,
+        "compression_ratio": 3.999969482654704,
+        "space_savings_percent": 74.99980926513672
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    },
+    "dense_2048x1024": {
+      "bie_binary": {
+        "encode_time": 0.003432035446166992,
+        "compressed_size": 4194264,
+        "compression_ratio": 2.000019073668229,
+        "space_savings_percent": 50.0004768371582
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.019169092178344727,
+        "compressed_size": 33558240,
+        "compression_ratio": 0.24997163140856016,
+        "space_savings_percent": -300.04539489746094
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.012543916702270508,
+        "compressed_size": 16969040,
+        "compression_ratio": 0.49434782403718774,
+        "space_savings_percent": -102.2867202758789
+      },
+      "bie_blocked_binary": {
+        "encode_time": 0.002624034881591797,
+        "compressed_size": 8388608,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 0.0012967586517333984,
+        "compressed_size": 8388608,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 0.00011420249938964844,
+        "compressed_size": 8388608,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 0.0028848648071289062,
+        "compressed_size": 4194304,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 0.0014710426330566406,
+        "compressed_size": 2097160,
+        "compression_ratio": 3.999984741269145,
+        "space_savings_percent": 74.99990463256836
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 0.0011970996856689453,
+        "compressed_size": 2097160,
+        "compression_ratio": 3.999984741269145,
+        "space_savings_percent": 74.99990463256836
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    },
+    "sparse_0.0_2048x1024": {
+      "bie_binary": {
+        "encode_time": 0.002026081085205078,
+        "compressed_size": 4194264,
+        "compression_ratio": 2.000019073668229,
+        "space_savings_percent": 50.0004768371582
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.014606952667236328,
+        "compressed_size": 33558240,
+        "compression_ratio": 0.24997163140856016,
+        "space_savings_percent": -300.04539489746094
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.008210897445678711,
+        "compressed_size": 16969040,
+        "compression_ratio": 0.49434782403718774,
+        "space_savings_percent": -102.2867202758789
+      },
+      "bie_blocked_binary": {
+        "encode_time": 0.0014491081237792969,
+        "compressed_size": 8388608,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 0.001249074935913086,
+        "compressed_size": 8388608,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 0.00011181831359863281,
+        "compressed_size": 8388608,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 0.0030069351196289062,
+        "compressed_size": 4194304,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 0.001953125,
+        "compressed_size": 2097160,
+        "compression_ratio": 3.999984741269145,
+        "space_savings_percent": 74.99990463256836
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 0.0019049644470214844,
+        "compressed_size": 2097160,
+        "compression_ratio": 3.999984741269145,
+        "space_savings_percent": 74.99990463256836
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    },
+    "sparse_0.3_2048x1024": {
+      "bie_binary": {
+        "encode_time": 0.0017557144165039062,
+        "compressed_size": 2935476,
+        "compression_ratio": 2.857665332641112,
+        "space_savings_percent": 65.00639915466309
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.018097877502441406,
+        "compressed_size": 36095864,
+        "compression_ratio": 0.23239803873374523,
+        "space_savings_percent": -330.2962303161621
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.01328420639038086,
+        "compressed_size": 19420652,
+        "compression_ratio": 0.4319426556842685,
+        "space_savings_percent": -131.5122127532959
+      },
+      "bie_blocked_binary": {
+        "encode_time": 0.0023522377014160156,
+        "compressed_size": 8388608,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 0.0012760162353515625,
+        "compressed_size": 8388608,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 0.00012373924255371094,
+        "compressed_size": 8388608,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 0.005646944046020508,
+        "compressed_size": 4194304,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 0.0019431114196777344,
+        "compressed_size": 2097160,
+        "compression_ratio": 3.999984741269145,
+        "space_savings_percent": 74.99990463256836
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 0.001912832260131836,
+        "compressed_size": 2097160,
+        "compression_ratio": 3.999984741269145,
+        "space_savings_percent": 74.99990463256836
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    },
+    "sparse_0.5_2048x1024": {
+      "bie_binary": {
+        "encode_time": 0.0019719600677490234,
+        "compressed_size": 2096216,
+        "compression_ratio": 4.001786075480771,
+        "space_savings_percent": 75.01115798950195
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.011296987533569336,
+        "compressed_size": 20952064,
+        "compression_ratio": 0.4003714383461219,
+        "space_savings_percent": -149.76806640625
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.009325027465820312,
+        "compressed_size": 21010464,
+        "compression_ratio": 0.3992585789633204,
+        "space_savings_percent": -150.46424865722656
+      },
+      "bie_blocked_binary": {
+        "encode_time": 0.009220123291015625,
+        "compressed_size": 2112568,
+        "compression_ratio": 3.9708108804071633,
+        "space_savings_percent": 74.81622695922852
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 0.012068986892700195,
+        "compressed_size": 8388608,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 0.0005030632019042969,
+        "compressed_size": 8388608,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 0.0081329345703125,
+        "compressed_size": 4194304,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 0.001920938491821289,
+        "compressed_size": 2097160,
+        "compression_ratio": 3.999984741269145,
+        "space_savings_percent": 74.99990463256836
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 0.0014851093292236328,
+        "compressed_size": 2097160,
+        "compression_ratio": 3.999984741269145,
+        "space_savings_percent": 74.99990463256836
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    },
+    "sparse_0.7_2048x1024": {
+      "bie_binary": {
+        "encode_time": 0.002223968505859375,
+        "compressed_size": 1257332,
+        "compression_ratio": 6.671752568136339,
+        "space_savings_percent": 85.01143455505371
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.0177152156829834,
+        "compressed_size": 27677688,
+        "compression_ratio": 0.3030819626263581,
+        "space_savings_percent": -229.94375228881836
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.010226964950561523,
+        "compressed_size": 22661112,
+        "compression_ratio": 0.37017636204260407,
+        "space_savings_percent": -170.14150619506836
+      },
+      "bie_blocked_binary": {
+        "encode_time": 0.007229328155517578,
+        "compressed_size": 1273684,
+        "compression_ratio": 6.58609827869393,
+        "space_savings_percent": 84.81650352478027
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 0.026626110076904297,
+        "compressed_size": 21937304,
+        "compression_ratio": 0.38239010591274114,
+        "space_savings_percent": -161.51304244995117
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 0.0001270771026611328,
+        "compressed_size": 8388608,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 0.005366086959838867,
+        "compressed_size": 4194304,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 0.0014007091522216797,
+        "compressed_size": 2097160,
+        "compression_ratio": 3.999984741269145,
+        "space_savings_percent": 74.99990463256836
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 0.0012881755828857422,
+        "compressed_size": 2097160,
+        "compression_ratio": 3.999984741269145,
+        "space_savings_percent": 74.99990463256836
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    },
+    "sparse_0.9_2048x1024": {
+      "bie_binary": {
+        "encode_time": 0.0028710365295410156,
+        "compressed_size": 419528,
+        "compression_ratio": 19.995347152037528,
+        "space_savings_percent": 94.99883651733398
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.022164344787597656,
+        "compressed_size": 48653976,
+        "compression_ratio": 0.17241361733725524,
+        "space_savings_percent": -480.0005912780762
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.010550975799560547,
+        "compressed_size": 24327652,
+        "compression_ratio": 0.344817822944853,
+        "space_savings_percent": -190.00821113586426
+      },
+      "bie_blocked_binary": {
+        "encode_time": 0.007203102111816406,
+        "compressed_size": 435880,
+        "compression_ratio": 19.245223455997063,
+        "space_savings_percent": 94.80390548706055
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 0.048915863037109375,
+        "compressed_size": 33571284,
+        "compression_ratio": 0.24987450584255283,
+        "space_savings_percent": -300.200891494751
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 0.00013518333435058594,
+        "compressed_size": 8388608,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 0.0034821033477783203,
+        "compressed_size": 4194304,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 0.0014090538024902344,
+        "compressed_size": 2097160,
+        "compression_ratio": 3.999984741269145,
+        "space_savings_percent": 74.99990463256836
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 0.0013141632080078125,
+        "compressed_size": 2097160,
+        "compression_ratio": 3.999984741269145,
+        "space_savings_percent": 74.99990463256836
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    },
+    "sparse_0.95_2048x1024": {
+      "bie_binary": {
+        "encode_time": 0.0031380653381347656,
+        "compressed_size": 209836,
+        "compression_ratio": 39.9769724928039,
+        "space_savings_percent": 97.49855995178223
+      },
+      "bie_bitplane_8bit": {
+        "encode_time": 0.015470027923583984,
+        "compressed_size": 25593672,
+        "compression_ratio": 0.3277610184267424,
+        "space_savings_percent": -205.10034561157227
+      },
+      "bie_bitplane_4bit": {
+        "encode_time": 0.006141185760498047,
+        "compressed_size": 8809232,
+        "compression_ratio": 0.9522519102686817,
+        "space_savings_percent": -5.014228820800781
+      },
+      "bie_blocked_binary": {
+        "encode_time": 0.006599903106689453,
+        "compressed_size": 226188,
+        "compression_ratio": 37.08688347746123,
+        "space_savings_percent": 97.30362892150879
+      },
+      "bie_blocked_bitplane": {
+        "encode_time": 0.04196524620056152,
+        "compressed_size": 33928076,
+        "compression_ratio": 0.24724679348159914,
+        "space_savings_percent": -304.4541835784912
+      },
+      "baseline_dense_fp32": {
+        "encode_time": 0.00014495849609375,
+        "compressed_size": 8388608,
+        "compression_ratio": 1.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_dense_fp16": {
+        "encode_time": 0.002946138381958008,
+        "compressed_size": 4194304,
+        "compression_ratio": 2.0,
+        "space_savings_percent": 50.0
+      },
+      "baseline_quantized_8bit": {
+        "encode_time": 0.0013790130615234375,
+        "compressed_size": 2097160,
+        "compression_ratio": 3.999984741269145,
+        "space_savings_percent": 74.99990463256836
+      },
+      "baseline_quantized_4bit": {
+        "encode_time": 0.0012369155883789062,
+        "compressed_size": 2097160,
+        "compression_ratio": 3.999984741269145,
+        "space_savings_percent": 74.99990463256836
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "encode_time": Infinity,
+        "compressed_size": Infinity,
+        "compression_ratio": 0.0,
+        "space_savings_percent": 0.0
+      }
+    }
+  },
+  "speed": {
+    "dense_256x256": {},
+    "sparse_0.0_256x256": {},
+    "sparse_0.3_256x256": {},
+    "sparse_0.5_256x256": {},
+    "sparse_0.7_256x256": {},
+    "sparse_0.9_256x256": {},
+    "sparse_0.95_256x256": {},
+    "dense_512x512": {
+      "input_size_512": {
+        "bie_binary": {
+          "avg_time": 0.09714887142181397,
+          "std_time": 0.2906697693339152,
+          "min_time": 0.0002079010009765625,
+          "max_time": 0.9691581726074219
+        },
+        "bie_bitplane_8bit": {
+          "avg_time": 0.0017372846603393554,
+          "std_time": 5.600543770465331e-05,
+          "min_time": 0.0016121864318847656,
+          "max_time": 0.0018358230590820312
+        },
+        "bie_bitplane_4bit": {
+          "avg_time": 0.0009138107299804688,
+          "std_time": 6.412802098810655e-05,
+          "min_time": 0.0008199214935302734,
+          "max_time": 0.0010602474212646484
+        },
+        "bie_blocked_binary": {
+          "avg_time": 0.0011317014694213867,
+          "std_time": 0.0004221433470450548,
+          "min_time": 0.0009636878967285156,
+          "max_time": 0.0023910999298095703
+        },
+        "bie_blocked_bitplane": {
+          "avg_time": 0.000981903076171875,
+          "std_time": 4.555856527613988e-05,
+          "min_time": 0.0009438991546630859,
+          "max_time": 0.00109100341796875
+        },
+        "baseline_dense_fp32": {
+          "avg_time": 0.0006367683410644532,
+          "std_time": 0.0008495843309386606,
+          "min_time": 0.00014495849609375,
+          "max_time": 0.002989053726196289
+        },
+        "baseline_dense_fp16": {
+          "avg_time": 0.0007004261016845704,
+          "std_time": 0.0005072844024536992,
+          "min_time": 0.00041985511779785156,
+          "max_time": 0.0020399093627929688
+        },
+        "baseline_quantized_8bit": {
+          "avg_time": 0.0005367279052734375,
+          "std_time": 0.0005312526303497491,
+          "min_time": 0.0002789497375488281,
+          "max_time": 0.0020978450775146484
+        },
+        "baseline_quantized_4bit": {
+          "avg_time": 0.0003809213638305664,
+          "std_time": 0.00020190670046349001,
+          "min_time": 0.00026679039001464844,
+          "max_time": 0.0008890628814697266
+        },
+        "baseline_sparse_csr": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        },
+        "baseline_hybrid_8bit": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        }
+      }
+    },
+    "sparse_0.0_512x512": {
+      "input_size_512": {
+        "bie_binary": {
+          "avg_time": 0.004051351547241211,
+          "std_time": 0.0011524545040300818,
+          "min_time": 0.002310037612915039,
+          "max_time": 0.005961894989013672
+        },
+        "bie_bitplane_8bit": {
+          "avg_time": 0.007713794708251953,
+          "std_time": 0.0029074414444626917,
+          "min_time": 0.005789995193481445,
+          "max_time": 0.016309022903442383
+        },
+        "bie_bitplane_4bit": {
+          "avg_time": 0.0034963130950927735,
+          "std_time": 0.00035248703243262686,
+          "min_time": 0.0029299259185791016,
+          "max_time": 0.003960847854614258
+        },
+        "bie_blocked_binary": {
+          "avg_time": 0.0016474485397338866,
+          "std_time": 0.0007709138757723965,
+          "min_time": 0.0010590553283691406,
+          "max_time": 0.002830982208251953
+        },
+        "bie_blocked_bitplane": {
+          "avg_time": 0.0014772653579711915,
+          "std_time": 0.0006595768308383675,
+          "min_time": 0.0010721683502197266,
+          "max_time": 0.0030739307403564453
+        },
+        "baseline_dense_fp32": {
+          "avg_time": 0.00028350353240966795,
+          "std_time": 0.00010492782163699383,
+          "min_time": 0.00021505355834960938,
+          "max_time": 0.0004911422729492188
+        },
+        "baseline_dense_fp16": {
+          "avg_time": 0.0007643699645996094,
+          "std_time": 0.0005983268222206944,
+          "min_time": 0.0004851818084716797,
+          "max_time": 0.0024919509887695312
+        },
+        "baseline_quantized_8bit": {
+          "avg_time": 0.0005510807037353516,
+          "std_time": 0.0005184873025157609,
+          "min_time": 0.0002701282501220703,
+          "max_time": 0.0019800662994384766
+        },
+        "baseline_quantized_4bit": {
+          "avg_time": 0.00033721923828125,
+          "std_time": 0.00013360191780929534,
+          "min_time": 0.00026869773864746094,
+          "max_time": 0.0007028579711914062
+        },
+        "baseline_sparse_csr": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        },
+        "baseline_hybrid_8bit": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        }
+      }
+    },
+    "sparse_0.3_512x512": {
+      "input_size_512": {
+        "bie_binary": {
+          "avg_time": 0.002525949478149414,
+          "std_time": 0.0011125298910861976,
+          "min_time": 0.0005908012390136719,
+          "max_time": 0.004395008087158203
+        },
+        "bie_bitplane_8bit": {
+          "avg_time": 0.010340499877929687,
+          "std_time": 0.006396642507352915,
+          "min_time": 0.0067980289459228516,
+          "max_time": 0.02521204948425293
+        },
+        "bie_bitplane_4bit": {
+          "avg_time": 0.0037039995193481447,
+          "std_time": 0.0003734673744389343,
+          "min_time": 0.0029020309448242188,
+          "max_time": 0.004080772399902344
+        },
+        "bie_blocked_binary": {
+          "avg_time": 0.0016558170318603516,
+          "std_time": 0.000696312079016398,
+          "min_time": 0.001104116439819336,
+          "max_time": 0.0026731491088867188
+        },
+        "bie_blocked_bitplane": {
+          "avg_time": 0.0011095046997070313,
+          "std_time": 3.575006894631684e-06,
+          "min_time": 0.0011019706726074219,
+          "max_time": 0.0011148452758789062
+        },
+        "baseline_dense_fp32": {
+          "avg_time": 0.00023529529571533203,
+          "std_time": 0.00013319647990243786,
+          "min_time": 0.00014400482177734375,
+          "max_time": 0.0006270408630371094
+        },
+        "baseline_dense_fp16": {
+          "avg_time": 0.0009070873260498047,
+          "std_time": 9.811844266977482e-06,
+          "min_time": 0.0008978843688964844,
+          "max_time": 0.0009341239929199219
+        },
+        "baseline_quantized_8bit": {
+          "avg_time": 0.00035586357116699217,
+          "std_time": 2.2493677889949577e-05,
+          "min_time": 0.00033402442932128906,
+          "max_time": 0.0004138946533203125
+        },
+        "baseline_quantized_4bit": {
+          "avg_time": 0.000366663932800293,
+          "std_time": 5.708872512407441e-05,
+          "min_time": 0.0003299713134765625,
+          "max_time": 0.0005180835723876953
+        },
+        "baseline_sparse_csr": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        },
+        "baseline_hybrid_8bit": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        }
+      }
+    },
+    "sparse_0.5_512x512": {
+      "input_size_512": {
+        "bie_binary": {
+          "avg_time": 0.0007527351379394531,
+          "std_time": 0.00035057995330447096,
+          "min_time": 0.0004601478576660156,
+          "max_time": 0.0013630390167236328
+        },
+        "bie_bitplane_8bit": {
+          "avg_time": 0.016963624954223634,
+          "std_time": 0.0035442225791199144,
+          "min_time": 0.012725114822387695,
+          "max_time": 0.022139787673950195
+        },
+        "bie_bitplane_4bit": {
+          "avg_time": 0.006343340873718262,
+          "std_time": 0.0009726059476533016,
+          "min_time": 0.004904031753540039,
+          "max_time": 0.007986068725585938
+        },
+        "bie_blocked_binary": {
+          "avg_time": 0.006342887878417969,
+          "std_time": 0.0012935496323223164,
+          "min_time": 0.0038909912109375,
+          "max_time": 0.008129119873046875
+        },
+        "bie_blocked_bitplane": {
+          "avg_time": 0.000931406021118164,
+          "std_time": 1.1431269615138115e-05,
+          "min_time": 0.0009169578552246094,
+          "max_time": 0.0009629726409912109
+        },
+        "baseline_dense_fp32": {
+          "avg_time": 0.0010751008987426758,
+          "std_time": 0.002581974905723659,
+          "min_time": 0.00020813941955566406,
+          "max_time": 0.00882101058959961
+        },
+        "baseline_dense_fp16": {
+          "avg_time": 0.001580214500427246,
+          "std_time": 0.0008185866734293014,
+          "min_time": 0.001168966293334961,
+          "max_time": 0.0034339427947998047
+        },
+        "baseline_quantized_8bit": {
+          "avg_time": 0.00036101341247558595,
+          "std_time": 0.00010111240585785163,
+          "min_time": 0.0002689361572265625,
+          "max_time": 0.0005617141723632812
+        },
+        "baseline_quantized_4bit": {
+          "avg_time": 0.00047249794006347655,
+          "std_time": 0.00041356406985274105,
+          "min_time": 0.00026988983154296875,
+          "max_time": 0.0017011165618896484
+        },
+        "baseline_sparse_csr": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        },
+        "baseline_hybrid_8bit": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        }
+      }
+    },
+    "sparse_0.7_512x512": {
+      "input_size_512": {
+        "bie_binary": {
+          "avg_time": 0.0006198883056640625,
+          "std_time": 0.00024199260278412192,
+          "min_time": 0.0003848075866699219,
+          "max_time": 0.0012679100036621094
+        },
+        "bie_bitplane_8bit": {
+          "avg_time": 0.013060235977172851,
+          "std_time": 0.007806978482055281,
+          "min_time": 0.004495143890380859,
+          "max_time": 0.028284788131713867
+        },
+        "bie_bitplane_4bit": {
+          "avg_time": 0.006184005737304687,
+          "std_time": 0.001142560693851648,
+          "min_time": 0.0046291351318359375,
+          "max_time": 0.007803201675415039
+        },
+        "bie_blocked_binary": {
+          "avg_time": 0.006324958801269531,
+          "std_time": 0.0013065936943240284,
+          "min_time": 0.0038530826568603516,
+          "max_time": 0.0089569091796875
+        },
+        "bie_blocked_bitplane": {
+          "avg_time": 0.02769150733947754,
+          "std_time": 0.0013162168096741047,
+          "min_time": 0.026148080825805664,
+          "max_time": 0.029489755630493164
+        },
+        "baseline_dense_fp32": {
+          "avg_time": 0.00015478134155273439,
+          "std_time": 3.5371515556407445e-05,
+          "min_time": 0.000141143798828125,
+          "max_time": 0.0002608299255371094
+        },
+        "baseline_dense_fp16": {
+          "avg_time": 0.000825810432434082,
+          "std_time": 3.812924360516461e-05,
+          "min_time": 0.0008077621459960938,
+          "max_time": 0.0009379386901855469
+        },
+        "baseline_quantized_8bit": {
+          "avg_time": 0.00035686492919921874,
+          "std_time": 6.097736826714006e-05,
+          "min_time": 0.0003299713134765625,
+          "max_time": 0.0005388259887695312
+        },
+        "baseline_quantized_4bit": {
+          "avg_time": 0.00033707618713378905,
+          "std_time": 7.879220033925952e-06,
+          "min_time": 0.00033092498779296875,
+          "max_time": 0.0003540515899658203
+        },
+        "baseline_sparse_csr": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        },
+        "baseline_hybrid_8bit": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        }
+      }
+    },
+    "sparse_0.9_512x512": {
+      "input_size_512": {
+        "bie_binary": {
+          "avg_time": 0.00019469261169433594,
+          "std_time": 8.690513863217763e-05,
+          "min_time": 0.00015997886657714844,
+          "max_time": 0.00045299530029296875
+        },
+        "bie_bitplane_8bit": {
+          "avg_time": 0.00753471851348877,
+          "std_time": 0.001974018019673004,
+          "min_time": 0.0051403045654296875,
+          "max_time": 0.010308027267456055
+        },
+        "bie_bitplane_4bit": {
+          "avg_time": 0.004774141311645508,
+          "std_time": 0.000244510168857434,
+          "min_time": 0.00406193733215332,
+          "max_time": 0.004987955093383789
+        },
+        "bie_blocked_binary": {
+          "avg_time": 0.0069863319396972655,
+          "std_time": 0.0011293083560482088,
+          "min_time": 0.006140232086181641,
+          "max_time": 0.009727001190185547
+        },
+        "bie_blocked_bitplane": {
+          "avg_time": 0.05450558662414551,
+          "std_time": 0.003129500558405334,
+          "min_time": 0.05196690559387207,
+          "max_time": 0.06067299842834473
+        },
+        "baseline_dense_fp32": {
+          "avg_time": 0.00015461444854736328,
+          "std_time": 3.518613183689156e-05,
+          "min_time": 0.00014090538024902344,
+          "max_time": 0.0002601146697998047
+        },
+        "baseline_dense_fp16": {
+          "avg_time": 0.0005404233932495117,
+          "std_time": 1.2834827474212896e-05,
+          "min_time": 0.0005319118499755859,
+          "max_time": 0.0005750656127929688
+        },
+        "baseline_quantized_8bit": {
+          "avg_time": 0.00020139217376708985,
+          "std_time": 7.390975952148438e-07,
+          "min_time": 0.00019979476928710938,
+          "max_time": 0.000202178955078125
+        },
+        "baseline_quantized_4bit": {
+          "avg_time": 0.0003226041793823242,
+          "std_time": 0.00014282512491588313,
+          "min_time": 0.0002238750457763672,
+          "max_time": 0.0007429122924804688
+        },
+        "baseline_sparse_csr": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        },
+        "baseline_hybrid_8bit": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        }
+      }
+    },
+    "sparse_0.95_512x512": {
+      "input_size_512": {
+        "bie_binary": {
+          "avg_time": 0.00025141239166259766,
+          "std_time": 5.956431454936605e-05,
+          "min_time": 0.00022411346435546875,
+          "max_time": 0.00042510032653808594
+        },
+        "bie_bitplane_8bit": {
+          "avg_time": 0.00828690528869629,
+          "std_time": 0.001502214681627324,
+          "min_time": 0.00692296028137207,
+          "max_time": 0.012202024459838867
+        },
+        "bie_bitplane_4bit": {
+          "avg_time": 0.0034766197204589844,
+          "std_time": 6.834068013436881e-05,
+          "min_time": 0.003420114517211914,
+          "max_time": 0.0036640167236328125
+        },
+        "bie_blocked_binary": {
+          "avg_time": 0.0057373046875,
+          "std_time": 0.001036345504484309,
+          "min_time": 0.003425121307373047,
+          "max_time": 0.007775068283081055
+        },
+        "bie_blocked_bitplane": {
+          "avg_time": 0.05320520401000976,
+          "std_time": 0.0030446703738819104,
+          "min_time": 0.05126214027404785,
+          "max_time": 0.06067681312561035
+        },
+        "baseline_dense_fp32": {
+          "avg_time": 0.00016160011291503905,
+          "std_time": 3.774803894528383e-05,
+          "min_time": 0.00014209747314453125,
+          "max_time": 0.0002613067626953125
+        },
+        "baseline_dense_fp16": {
+          "avg_time": 0.0004852056503295898,
+          "std_time": 2.432137128652572e-05,
+          "min_time": 0.00047588348388671875,
+          "max_time": 0.0005581378936767578
+        },
+        "baseline_quantized_8bit": {
+          "avg_time": 0.00020122528076171875,
+          "std_time": 6.743495761743046e-07,
+          "min_time": 0.00020003318786621094,
+          "max_time": 0.00020194053649902344
+        },
+        "baseline_quantized_4bit": {
+          "avg_time": 0.0002574920654296875,
+          "std_time": 3.4099358334859384e-05,
+          "min_time": 0.0002009868621826172,
+          "max_time": 0.000324249267578125
+        },
+        "baseline_sparse_csr": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        },
+        "baseline_hybrid_8bit": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        }
+      }
+    },
+    "dense_1024x1024": {
+      "input_size_1024": {
+        "bie_binary": {
+          "avg_time": 0.004639267921447754,
+          "std_time": 0.0011715714176695929,
+          "min_time": 0.0033540725708007812,
+          "max_time": 0.007100820541381836
+        },
+        "bie_bitplane_8bit": {
+          "avg_time": 0.022010374069213866,
+          "std_time": 0.00983098001580562,
+          "min_time": 0.004575014114379883,
+          "max_time": 0.032570838928222656
+        },
+        "bie_bitplane_4bit": {
+          "avg_time": 0.0023172378540039064,
+          "std_time": 4.584929994237757e-05,
+          "min_time": 0.0022401809692382812,
+          "max_time": 0.002389192581176758
+        },
+        "bie_blocked_binary": {
+          "avg_time": 0.004144406318664551,
+          "std_time": 5.201389140624176e-05,
+          "min_time": 0.004050016403198242,
+          "max_time": 0.004228830337524414
+        },
+        "bie_blocked_bitplane": {
+          "avg_time": 0.004160118103027344,
+          "std_time": 2.3629626764915067e-05,
+          "min_time": 0.0041348934173583984,
+          "max_time": 0.004213094711303711
+        },
+        "baseline_dense_fp32": {
+          "avg_time": 0.0005520343780517578,
+          "std_time": 4.38081017771297e-05,
+          "min_time": 0.0005238056182861328,
+          "max_time": 0.0006430149078369141
+        },
+        "baseline_dense_fp16": {
+          "avg_time": 0.0019997119903564452,
+          "std_time": 0.00026045243669817805,
+          "min_time": 0.0016200542449951172,
+          "max_time": 0.0024018287658691406
+        },
+        "baseline_quantized_8bit": {
+          "avg_time": 0.0010329961776733398,
+          "std_time": 9.582179135701105e-05,
+          "min_time": 0.0009608268737792969,
+          "max_time": 0.0012409687042236328
+        },
+        "baseline_quantized_4bit": {
+          "avg_time": 0.0010200977325439454,
+          "std_time": 9.184873929612824e-05,
+          "min_time": 0.0009300708770751953,
+          "max_time": 0.0012857913970947266
+        },
+        "baseline_sparse_csr": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        },
+        "baseline_hybrid_8bit": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        }
+      }
+    },
+    "sparse_0.0_1024x1024": {
+      "input_size_1024": {
+        "bie_binary": {
+          "avg_time": 0.005612611770629883,
+          "std_time": 0.0016127213005755147,
+          "min_time": 0.003926992416381836,
+          "max_time": 0.008246898651123047
+        },
+        "bie_bitplane_8bit": {
+          "avg_time": 0.020631980895996094,
+          "std_time": 0.009986028401581934,
+          "min_time": 0.0045468807220458984,
+          "max_time": 0.02846693992614746
+        },
+        "bie_bitplane_4bit": {
+          "avg_time": 0.0023070812225341798,
+          "std_time": 4.264484030532666e-05,
+          "min_time": 0.002249002456665039,
+          "max_time": 0.0023679733276367188
+        },
+        "bie_blocked_binary": {
+          "avg_time": 0.0039942264556884766,
+          "std_time": 2.8073319453487484e-05,
+          "min_time": 0.003960132598876953,
+          "max_time": 0.00406193733215332
+        },
+        "bie_blocked_bitplane": {
+          "avg_time": 0.0039823055267333984,
+          "std_time": 1.7871218011409742e-05,
+          "min_time": 0.003965139389038086,
+          "max_time": 0.004018068313598633
+        },
+        "baseline_dense_fp32": {
+          "avg_time": 0.000546121597290039,
+          "std_time": 4.980508763839762e-05,
+          "min_time": 0.0005190372467041016,
+          "max_time": 0.0006799697875976562
+        },
+        "baseline_dense_fp16": {
+          "avg_time": 0.002120351791381836,
+          "std_time": 0.0003637276085676112,
+          "min_time": 0.0016109943389892578,
+          "max_time": 0.0027093887329101562
+        },
+        "baseline_quantized_8bit": {
+          "avg_time": 0.0009963035583496094,
+          "std_time": 6.216563173987627e-05,
+          "min_time": 0.0009567737579345703,
+          "max_time": 0.0011749267578125
+        },
+        "baseline_quantized_4bit": {
+          "avg_time": 0.000999617576599121,
+          "std_time": 8.67168752292798e-05,
+          "min_time": 0.0008671283721923828,
+          "max_time": 0.0011839866638183594
+        },
+        "baseline_sparse_csr": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        },
+        "baseline_hybrid_8bit": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        }
+      }
+    },
+    "sparse_0.3_1024x1024": {
+      "input_size_1024": {
+        "bie_binary": {
+          "avg_time": 0.003473043441772461,
+          "std_time": 0.0006180736040350669,
+          "min_time": 0.0026302337646484375,
+          "max_time": 0.0045397281646728516
+        },
+        "bie_bitplane_8bit": {
+          "avg_time": 0.023395562171936037,
+          "std_time": 0.012786445754672271,
+          "min_time": 0.004908084869384766,
+          "max_time": 0.03639030456542969
+        },
+        "bie_bitplane_4bit": {
+          "avg_time": 0.002593111991882324,
+          "std_time": 7.230792140480713e-05,
+          "min_time": 0.0024712085723876953,
+          "max_time": 0.0027179718017578125
+        },
+        "bie_blocked_binary": {
+          "avg_time": 0.004165220260620117,
+          "std_time": 3.900309349033984e-05,
+          "min_time": 0.004129886627197266,
+          "max_time": 0.004266023635864258
+        },
+        "bie_blocked_bitplane": {
+          "avg_time": 0.003984999656677246,
+          "std_time": 2.155547898336832e-05,
+          "min_time": 0.003958225250244141,
+          "max_time": 0.004023075103759766
+        },
+        "baseline_dense_fp32": {
+          "avg_time": 0.0005526065826416016,
+          "std_time": 4.610608486307293e-05,
+          "min_time": 0.0005168914794921875,
+          "max_time": 0.0006701946258544922
+        },
+        "baseline_dense_fp16": {
+          "avg_time": 0.004151010513305664,
+          "std_time": 0.0006930160145810229,
+          "min_time": 0.003457784652709961,
+          "max_time": 0.005228996276855469
+        },
+        "baseline_quantized_8bit": {
+          "avg_time": 0.0010729312896728515,
+          "std_time": 0.00011617410045210193,
+          "min_time": 0.0010151863098144531,
+          "max_time": 0.001417398452758789
+        },
+        "baseline_quantized_4bit": {
+          "avg_time": 0.0009790420532226562,
+          "std_time": 9.079749561557353e-05,
+          "min_time": 0.0007491111755371094,
+          "max_time": 0.0011401176452636719
+        },
+        "baseline_sparse_csr": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        },
+        "baseline_hybrid_8bit": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        }
+      }
+    },
+    "sparse_0.5_1024x1024": {
+      "input_size_1024": {
+        "bie_binary": {
+          "avg_time": 0.003972291946411133,
+          "std_time": 0.0012407723197223452,
+          "min_time": 0.002318143844604492,
+          "max_time": 0.00560307502746582
+        },
+        "bie_bitplane_8bit": {
+          "avg_time": 0.022414636611938477,
+          "std_time": 0.01447222896089497,
+          "min_time": 0.004851818084716797,
+          "max_time": 0.03790473937988281
+        },
+        "bie_bitplane_4bit": {
+          "avg_time": 0.0026389122009277343,
+          "std_time": 6.084843849505754e-05,
+          "min_time": 0.002537250518798828,
+          "max_time": 0.0027251243591308594
+        },
+        "bie_blocked_binary": {
+          "avg_time": 0.027466201782226564,
+          "std_time": 0.0013564131593985097,
+          "min_time": 0.02642202377319336,
+          "max_time": 0.0298616886138916
+        },
+        "bie_blocked_bitplane": {
+          "avg_time": 0.003965520858764648,
+          "std_time": 1.4632065012639252e-05,
+          "min_time": 0.003947019577026367,
+          "max_time": 0.003997087478637695
+        },
+        "baseline_dense_fp32": {
+          "avg_time": 0.0005300998687744141,
+          "std_time": 1.567525553554018e-05,
+          "min_time": 0.0005168914794921875,
+          "max_time": 0.0005710124969482422
+        },
+        "baseline_dense_fp16": {
+          "avg_time": 0.005252695083618164,
+          "std_time": 0.0009729009991512137,
+          "min_time": 0.004345893859863281,
+          "max_time": 0.007372140884399414
+        },
+        "baseline_quantized_8bit": {
+          "avg_time": 0.0009897947311401367,
+          "std_time": 2.9327859627347057e-05,
+          "min_time": 0.0009579658508300781,
+          "max_time": 0.0010380744934082031
+        },
+        "baseline_quantized_4bit": {
+          "avg_time": 0.000963592529296875,
+          "std_time": 0.00011515504824639273,
+          "min_time": 0.0007469654083251953,
+          "max_time": 0.001171112060546875
+        },
+        "baseline_sparse_csr": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        },
+        "baseline_hybrid_8bit": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        }
+      }
+    },
+    "sparse_0.7_1024x1024": {
+      "input_size_1024": {
+        "bie_binary": {
+          "avg_time": 0.0029830694198608398,
+          "std_time": 0.0005906133169093049,
+          "min_time": 0.0020956993103027344,
+          "max_time": 0.003980875015258789
+        },
+        "bie_bitplane_8bit": {
+          "avg_time": 0.021788811683654784,
+          "std_time": 0.009727552000780123,
+          "min_time": 0.0042552947998046875,
+          "max_time": 0.03408098220825195
+        },
+        "bie_bitplane_4bit": {
+          "avg_time": 0.0027224063873291016,
+          "std_time": 6.572091057792398e-05,
+          "min_time": 0.0026197433471679688,
+          "max_time": 0.002823352813720703
+        },
+        "bie_blocked_binary": {
+          "avg_time": 0.028033995628356935,
+          "std_time": 0.0027394059295779635,
+          "min_time": 0.02569890022277832,
+          "max_time": 0.03564190864562988
+        },
+        "bie_blocked_bitplane": {
+          "avg_time": 0.10150136947631835,
+          "std_time": 0.0024540425278083517,
+          "min_time": 0.09959983825683594,
+          "max_time": 0.10744786262512207
+        },
+        "baseline_dense_fp32": {
+          "avg_time": 0.0005444049835205078,
+          "std_time": 4.706931058101272e-05,
+          "min_time": 0.0005178451538085938,
+          "max_time": 0.0006630420684814453
+        },
+        "baseline_dense_fp16": {
+          "avg_time": 0.003742408752441406,
+          "std_time": 0.0005353901281723545,
+          "min_time": 0.0032150745391845703,
+          "max_time": 0.0050220489501953125
+        },
+        "baseline_quantized_8bit": {
+          "avg_time": 0.0008932113647460938,
+          "std_time": 0.00015507416663664467,
+          "min_time": 0.000743865966796875,
+          "max_time": 0.001155853271484375
+        },
+        "baseline_quantized_4bit": {
+          "avg_time": 0.001008915901184082,
+          "std_time": 4.7209172482103275e-05,
+          "min_time": 0.0009691715240478516,
+          "max_time": 0.001132965087890625
+        },
+        "baseline_sparse_csr": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        },
+        "baseline_hybrid_8bit": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        }
+      }
+    },
+    "sparse_0.9_1024x1024": {
+      "input_size_1024": {
+        "bie_binary": {
+          "avg_time": 0.0010387897491455078,
+          "std_time": 0.000274579650354753,
+          "min_time": 0.0004858970642089844,
+          "max_time": 0.0012459754943847656
+        },
+        "bie_bitplane_8bit": {
+          "avg_time": 0.025776052474975587,
+          "std_time": 0.02010702474238607,
+          "min_time": 0.005101919174194336,
+          "max_time": 0.06323504447937012
+        },
+        "bie_bitplane_4bit": {
+          "avg_time": 0.0031428098678588866,
+          "std_time": 5.6659858049820236e-05,
+          "min_time": 0.0030431747436523438,
+          "max_time": 0.003255128860473633
+        },
+        "bie_blocked_binary": {
+          "avg_time": 0.026319217681884766,
+          "std_time": 0.0014011017464275089,
+          "min_time": 0.02537989616394043,
+          "max_time": 0.030232667922973633
+        },
+        "bie_blocked_bitplane": {
+          "avg_time": 0.21180033683776855,
+          "std_time": 0.004420646084732266,
+          "min_time": 0.2064650058746338,
+          "max_time": 0.2220630645751953
+        },
+        "baseline_dense_fp32": {
+          "avg_time": 0.002750086784362793,
+          "std_time": 0.0034224207008724827,
+          "min_time": 0.0007243156433105469,
+          "max_time": 0.010146856307983398
+        },
+        "baseline_dense_fp16": {
+          "avg_time": 0.005318188667297363,
+          "std_time": 0.00536972565599207,
+          "min_time": 0.002095937728881836,
+          "max_time": 0.020692825317382812
+        },
+        "baseline_quantized_8bit": {
+          "avg_time": 0.0013482809066772462,
+          "std_time": 0.0006809079883223768,
+          "min_time": 0.0009729862213134766,
+          "max_time": 0.0032699108123779297
+        },
+        "baseline_quantized_4bit": {
+          "avg_time": 0.0013128042221069336,
+          "std_time": 0.0007405430829246465,
+          "min_time": 0.0009570121765136719,
+          "max_time": 0.003428936004638672
+        },
+        "baseline_sparse_csr": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        },
+        "baseline_hybrid_8bit": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        }
+      }
+    },
+    "sparse_0.95_1024x1024": {
+      "input_size_1024": {
+        "bie_binary": {
+          "avg_time": 0.000276947021484375,
+          "std_time": 1.732671654146353e-05,
+          "min_time": 0.00025582313537597656,
+          "max_time": 0.00031495094299316406
+        },
+        "bie_bitplane_8bit": {
+          "avg_time": 0.02491176128387451,
+          "std_time": 0.003164051749245942,
+          "min_time": 0.017032861709594727,
+          "max_time": 0.02944016456604004
+        },
+        "bie_bitplane_4bit": {
+          "avg_time": 0.003043794631958008,
+          "std_time": 0.00013374169621281469,
+          "min_time": 0.0028772354125976562,
+          "max_time": 0.0033349990844726562
+        },
+        "bie_blocked_binary": {
+          "avg_time": 0.026165413856506347,
+          "std_time": 0.001186619984521087,
+          "min_time": 0.02502894401550293,
+          "max_time": 0.028933286666870117
+        },
+        "bie_blocked_bitplane": {
+          "avg_time": 0.21209266185760497,
+          "std_time": 0.00408638875079315,
+          "min_time": 0.20569491386413574,
+          "max_time": 0.21793818473815918
+        },
+        "baseline_dense_fp32": {
+          "avg_time": 0.0007608413696289062,
+          "std_time": 7.15598818831162e-05,
+          "min_time": 0.0007219314575195312,
+          "max_time": 0.0009450912475585938
+        },
+        "baseline_dense_fp16": {
+          "avg_time": 0.0024112701416015626,
+          "std_time": 0.00035844576134160303,
+          "min_time": 0.0018510818481445312,
+          "max_time": 0.0029239654541015625
+        },
+        "baseline_quantized_8bit": {
+          "avg_time": 0.000858306884765625,
+          "std_time": 0.0001567667698668535,
+          "min_time": 0.0007500648498535156,
+          "max_time": 0.0012359619140625
+        },
+        "baseline_quantized_4bit": {
+          "avg_time": 0.0011346101760864257,
+          "std_time": 0.00010898423070515764,
+          "min_time": 0.0009980201721191406,
+          "max_time": 0.001277923583984375
+        },
+        "baseline_sparse_csr": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        },
+        "baseline_hybrid_8bit": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        }
+      }
+    },
+    "dense_2048x1024": {
+      "input_size_1024": {
+        "bie_binary": {
+          "avg_time": 0.008004045486450196,
+          "std_time": 0.002574486806753982,
+          "min_time": 0.006371974945068359,
+          "max_time": 0.013195991516113281
+        },
+        "bie_bitplane_8bit": {
+          "avg_time": 0.022205471992492676,
+          "std_time": 0.020733998404462415,
+          "min_time": 0.008236169815063477,
+          "max_time": 0.06267595291137695
+        },
+        "bie_bitplane_4bit": {
+          "avg_time": 0.004599523544311523,
+          "std_time": 9.116515434411197e-05,
+          "min_time": 0.004400968551635742,
+          "max_time": 0.004675149917602539
+        },
+        "bie_blocked_binary": {
+          "avg_time": 0.008401775360107422,
+          "std_time": 0.0002648950843579857,
+          "min_time": 0.008240699768066406,
+          "max_time": 0.009153127670288086
+        },
+        "bie_blocked_bitplane": {
+          "avg_time": 0.008216500282287598,
+          "std_time": 0.00015701192149343435,
+          "min_time": 0.008079051971435547,
+          "max_time": 0.008564949035644531
+        },
+        "baseline_dense_fp32": {
+          "avg_time": 0.001584625244140625,
+          "std_time": 0.00010470236526876063,
+          "min_time": 0.00144195556640625,
+          "max_time": 0.0017960071563720703
+        },
+        "baseline_dense_fp16": {
+          "avg_time": 0.003998303413391113,
+          "std_time": 0.000518072737011259,
+          "min_time": 0.0036962032318115234,
+          "max_time": 0.005132198333740234
+        },
+        "baseline_quantized_8bit": {
+          "avg_time": 0.0020761728286743165,
+          "std_time": 0.0002236158713630019,
+          "min_time": 0.0019359588623046875,
+          "max_time": 0.002719879150390625
+        },
+        "baseline_quantized_4bit": {
+          "avg_time": 0.0021806955337524414,
+          "std_time": 0.000404038030718668,
+          "min_time": 0.001955747604370117,
+          "max_time": 0.003297090530395508
+        },
+        "baseline_sparse_csr": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        },
+        "baseline_hybrid_8bit": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        }
+      }
+    },
+    "sparse_0.0_2048x1024": {
+      "input_size_1024": {
+        "bie_binary": {
+          "avg_time": 0.011519384384155274,
+          "std_time": 0.002380351406464562,
+          "min_time": 0.0066149234771728516,
+          "max_time": 0.014147043228149414
+        },
+        "bie_bitplane_8bit": {
+          "avg_time": 0.018580818176269533,
+          "std_time": 0.015879959878806565,
+          "min_time": 0.008174896240234375,
+          "max_time": 0.04512524604797363
+        },
+        "bie_bitplane_4bit": {
+          "avg_time": 0.004317641258239746,
+          "std_time": 0.00018432915017119075,
+          "min_time": 0.004148244857788086,
+          "max_time": 0.0048372745513916016
+        },
+        "bie_blocked_binary": {
+          "avg_time": 0.008652973175048827,
+          "std_time": 0.00014067976295283657,
+          "min_time": 0.008459091186523438,
+          "max_time": 0.008879899978637695
+        },
+        "bie_blocked_bitplane": {
+          "avg_time": 0.008316397666931152,
+          "std_time": 9.38371580003935e-05,
+          "min_time": 0.008237123489379883,
+          "max_time": 0.008556842803955078
+        },
+        "baseline_dense_fp32": {
+          "avg_time": 0.0010689496994018555,
+          "std_time": 7.129634443910739e-05,
+          "min_time": 0.0010228157043457031,
+          "max_time": 0.0012290477752685547
+        },
+        "baseline_dense_fp16": {
+          "avg_time": 0.004026985168457032,
+          "std_time": 0.0004326929544429904,
+          "min_time": 0.0036339759826660156,
+          "max_time": 0.004745960235595703
+        },
+        "baseline_quantized_8bit": {
+          "avg_time": 0.002039599418640137,
+          "std_time": 0.00024609466066363755,
+          "min_time": 0.001909017562866211,
+          "max_time": 0.0027701854705810547
+        },
+        "baseline_quantized_4bit": {
+          "avg_time": 0.0018353223800659179,
+          "std_time": 0.0005016695674651084,
+          "min_time": 0.00146484375,
+          "max_time": 0.0031380653381347656
+        },
+        "baseline_sparse_csr": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        },
+        "baseline_hybrid_8bit": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        }
+      }
+    },
+    "sparse_0.3_2048x1024": {
+      "input_size_1024": {
+        "bie_binary": {
+          "avg_time": 0.005032682418823242,
+          "std_time": 0.0005912584851464905,
+          "min_time": 0.004194021224975586,
+          "max_time": 0.006025075912475586
+        },
+        "bie_bitplane_8bit": {
+          "avg_time": 0.025198078155517577,
+          "std_time": 0.019498641513977108,
+          "min_time": 0.009509801864624023,
+          "max_time": 0.056700944900512695
+        },
+        "bie_bitplane_4bit": {
+          "avg_time": 0.004494309425354004,
+          "std_time": 6.285007239132583e-05,
+          "min_time": 0.004395961761474609,
+          "max_time": 0.004652976989746094
+        },
+        "bie_blocked_binary": {
+          "avg_time": 0.009221601486206054,
+          "std_time": 0.0001975932807742134,
+          "min_time": 0.00894308090209961,
+          "max_time": 0.009532928466796875
+        },
+        "bie_blocked_bitplane": {
+          "avg_time": 0.008630514144897461,
+          "std_time": 0.00019699859359678865,
+          "min_time": 0.00839686393737793,
+          "max_time": 0.00899195671081543
+        },
+        "baseline_dense_fp32": {
+          "avg_time": 0.0011227846145629883,
+          "std_time": 0.00014529362207802012,
+          "min_time": 0.0010218620300292969,
+          "max_time": 0.0014519691467285156
+        },
+        "baseline_dense_fp16": {
+          "avg_time": 0.008244943618774415,
+          "std_time": 0.0015245514802917537,
+          "min_time": 0.0069348812103271484,
+          "max_time": 0.010463953018188477
+        },
+        "baseline_quantized_8bit": {
+          "avg_time": 0.002190852165222168,
+          "std_time": 0.00023138771714177419,
+          "min_time": 0.0019259452819824219,
+          "max_time": 0.0026159286499023438
+        },
+        "baseline_quantized_4bit": {
+          "avg_time": 0.0019857168197631838,
+          "std_time": 8.929519342242129e-05,
+          "min_time": 0.0018877983093261719,
+          "max_time": 0.002233743667602539
+        },
+        "baseline_sparse_csr": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        },
+        "baseline_hybrid_8bit": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        }
+      }
+    },
+    "sparse_0.5_2048x1024": {
+      "input_size_1024": {
+        "bie_binary": {
+          "avg_time": 0.006472063064575195,
+          "std_time": 0.0013660183232929565,
+          "min_time": 0.0032770633697509766,
+          "max_time": 0.008377790451049805
+        },
+        "bie_bitplane_8bit": {
+          "avg_time": 0.01873774528503418,
+          "std_time": 0.014008156241593496,
+          "min_time": 0.0053288936614990234,
+          "max_time": 0.038275957107543945
+        },
+        "bie_bitplane_4bit": {
+          "avg_time": 0.004702568054199219,
+          "std_time": 6.849820133156879e-05,
+          "min_time": 0.004607439041137695,
+          "max_time": 0.004854917526245117
+        },
+        "bie_blocked_binary": {
+          "avg_time": 0.05473582744598389,
+          "std_time": 0.0026477354901151173,
+          "min_time": 0.05187201499938965,
+          "max_time": 0.05870628356933594
+        },
+        "bie_blocked_bitplane": {
+          "avg_time": 0.008397221565246582,
+          "std_time": 0.00011794257694902782,
+          "min_time": 0.008275270462036133,
+          "max_time": 0.008647918701171875
+        },
+        "baseline_dense_fp32": {
+          "avg_time": 0.0016954898834228515,
+          "std_time": 0.0003889835205810911,
+          "min_time": 0.0014810562133789062,
+          "max_time": 0.0028388500213623047
+        },
+        "baseline_dense_fp16": {
+          "avg_time": 0.009748244285583496,
+          "std_time": 0.0008784244084575456,
+          "min_time": 0.009123802185058594,
+          "max_time": 0.011593103408813477
+        },
+        "baseline_quantized_8bit": {
+          "avg_time": 0.0028432607650756836,
+          "std_time": 0.0026869044366976615,
+          "min_time": 0.0018930435180664062,
+          "max_time": 0.010903120040893555
+        },
+        "baseline_quantized_4bit": {
+          "avg_time": 0.0029020786285400392,
+          "std_time": 0.002172882594155882,
+          "min_time": 0.0018990039825439453,
+          "max_time": 0.009356975555419922
+        },
+        "baseline_sparse_csr": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        },
+        "baseline_hybrid_8bit": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        }
+      }
+    },
+    "sparse_0.7_2048x1024": {
+      "input_size_1024": {
+        "bie_binary": {
+          "avg_time": 0.004316520690917969,
+          "std_time": 0.0019138226333897516,
+          "min_time": 0.0018951892852783203,
+          "max_time": 0.008075952529907227
+        },
+        "bie_bitplane_8bit": {
+          "avg_time": 0.021516585350036622,
+          "std_time": 0.017309570328804712,
+          "min_time": 0.006461143493652344,
+          "max_time": 0.04347681999206543
+        },
+        "bie_bitplane_4bit": {
+          "avg_time": 0.005481624603271484,
+          "std_time": 0.0001494302286427086,
+          "min_time": 0.005250215530395508,
+          "max_time": 0.0056760311126708984
+        },
+        "bie_blocked_binary": {
+          "avg_time": 0.05578837394714355,
+          "std_time": 0.008211810316903646,
+          "min_time": 0.05205392837524414,
+          "max_time": 0.07974600791931152
+        },
+        "bie_blocked_bitplane": {
+          "avg_time": 0.22456543445587157,
+          "std_time": 0.0035189135565812757,
+          "min_time": 0.21833491325378418,
+          "max_time": 0.23034000396728516
+        },
+        "baseline_dense_fp32": {
+          "avg_time": 0.0010715007781982421,
+          "std_time": 6.7744683167469e-05,
+          "min_time": 0.0010180473327636719,
+          "max_time": 0.0012199878692626953
+        },
+        "baseline_dense_fp16": {
+          "avg_time": 0.00759131908416748,
+          "std_time": 0.0013704637228070691,
+          "min_time": 0.00671696662902832,
+          "max_time": 0.010438203811645508
+        },
+        "baseline_quantized_8bit": {
+          "avg_time": 0.002128148078918457,
+          "std_time": 0.0003559077931010372,
+          "min_time": 0.0014939308166503906,
+          "max_time": 0.002656221389770508
+        },
+        "baseline_quantized_4bit": {
+          "avg_time": 0.002023744583129883,
+          "std_time": 0.00011838335014212923,
+          "min_time": 0.001909017562866211,
+          "max_time": 0.0023272037506103516
+        },
+        "baseline_sparse_csr": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        },
+        "baseline_hybrid_8bit": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        }
+      }
+    },
+    "sparse_0.9_2048x1024": {
+      "input_size_1024": {
+        "bie_binary": {
+          "avg_time": 0.0017178058624267578,
+          "std_time": 0.0007773520535762458,
+          "min_time": 0.00078582763671875,
+          "max_time": 0.0030858516693115234
+        },
+        "bie_bitplane_8bit": {
+          "avg_time": 0.026740002632141113,
+          "std_time": 0.024591168326520793,
+          "min_time": 0.010313987731933594,
+          "max_time": 0.08762216567993164
+        },
+        "bie_bitplane_4bit": {
+          "avg_time": 0.005164599418640137,
+          "std_time": 4.621145610852933e-05,
+          "min_time": 0.005096912384033203,
+          "max_time": 0.0052642822265625
+        },
+        "bie_blocked_binary": {
+          "avg_time": 0.052322912216186526,
+          "std_time": 0.001206453588773569,
+          "min_time": 0.05125784873962402,
+          "max_time": 0.05552220344543457
+        },
+        "bie_blocked_bitplane": {
+          "avg_time": 0.42517242431640623,
+          "std_time": 0.005604991531104968,
+          "min_time": 0.41817212104797363,
+          "max_time": 0.4332568645477295
+        },
+        "baseline_dense_fp32": {
+          "avg_time": 0.0016715526580810547,
+          "std_time": 0.0005034135439239599,
+          "min_time": 0.0014278888702392578,
+          "max_time": 0.0031549930572509766
+        },
+        "baseline_dense_fp16": {
+          "avg_time": 0.005715370178222656,
+          "std_time": 0.001881276454966486,
+          "min_time": 0.004603862762451172,
+          "max_time": 0.011111974716186523
+        },
+        "baseline_quantized_8bit": {
+          "avg_time": 0.0020503997802734375,
+          "std_time": 0.00021043937246503842,
+          "min_time": 0.0019016265869140625,
+          "max_time": 0.0025529861450195312
+        },
+        "baseline_quantized_4bit": {
+          "avg_time": 0.002210116386413574,
+          "std_time": 0.000297951164116922,
+          "min_time": 0.0019030570983886719,
+          "max_time": 0.002669095993041992
+        },
+        "baseline_sparse_csr": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        },
+        "baseline_hybrid_8bit": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        }
+      }
+    },
+    "sparse_0.95_2048x1024": {
+      "input_size_1024": {
+        "bie_binary": {
+          "avg_time": 0.001205587387084961,
+          "std_time": 0.0004204854614582779,
+          "min_time": 0.0007328987121582031,
+          "max_time": 0.0022149085998535156
+        },
+        "bie_bitplane_8bit": {
+          "avg_time": 0.024980640411376952,
+          "std_time": 0.016791744176893348,
+          "min_time": 0.005903005599975586,
+          "max_time": 0.05019402503967285
+        },
+        "bie_bitplane_4bit": {
+          "avg_time": 0.0022262811660766603,
+          "std_time": 7.369032325136694e-05,
+          "min_time": 0.002135038375854492,
+          "max_time": 0.002351045608520508
+        },
+        "bie_blocked_binary": {
+          "avg_time": 0.05085818767547608,
+          "std_time": 0.0016633649925104031,
+          "min_time": 0.04989790916442871,
+          "max_time": 0.055783987045288086
+        },
+        "bie_blocked_bitplane": {
+          "avg_time": 0.4265374422073364,
+          "std_time": 0.009303685830674348,
+          "min_time": 0.41351914405822754,
+          "max_time": 0.4443960189819336
+        },
+        "baseline_dense_fp32": {
+          "avg_time": 0.0010623455047607422,
+          "std_time": 5.8679147480357975e-05,
+          "min_time": 0.0010187625885009766,
+          "max_time": 0.0011751651763916016
+        },
+        "baseline_dense_fp16": {
+          "avg_time": 0.004703140258789063,
+          "std_time": 0.0008508343869975695,
+          "min_time": 0.004110097885131836,
+          "max_time": 0.006346940994262695
+        },
+        "baseline_quantized_8bit": {
+          "avg_time": 0.002083158493041992,
+          "std_time": 0.00025025094145890073,
+          "min_time": 0.001806020736694336,
+          "max_time": 0.0026602745056152344
+        },
+        "baseline_quantized_4bit": {
+          "avg_time": 0.0023970603942871094,
+          "std_time": 0.00025070241327576566,
+          "min_time": 0.001895904541015625,
+          "max_time": 0.002683877944946289
+        },
+        "baseline_sparse_csr": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        },
+        "baseline_hybrid_8bit": {
+          "error": "name 'sp' is not defined",
+          "avg_time": Infinity,
+          "std_time": Infinity
+        }
+      }
+    }
+  },
+  "accuracy": {
+    "dense_512x512": {
+      "bie_binary": {
+        "mse": "2.0448988e-11",
+        "mae": "3.0713163e-06",
+        "max_error": "3.8146973e-05",
+        "rmse": "4.522056e-06"
+      },
+      "bie_bitplane_8bit": {
+        "mse": "8585.404",
+        "mae": "71.625595",
+        "max_error": "249.05753",
+        "rmse": "92.657455"
+      },
+      "bie_bitplane_4bit": {
+        "mse": "7548.9062",
+        "mae": "67.051414",
+        "max_error": "243.92534",
+        "rmse": "86.884445"
+      },
+      "bie_blocked_binary": {
+        "mse": "1.24350565e-11",
+        "mae": "2.6043344e-06",
+        "max_error": "2.670288e-05",
+        "rmse": "3.5263377e-06"
+      },
+      "bie_blocked_bitplane": {
+        "mse": "4.853247e-11",
+        "mae": "5.130715e-06",
+        "max_error": "4.5776367e-05",
+        "rmse": "6.966525e-06"
+      },
+      "baseline_dense_fp32": {
+        "mse": "0.0",
+        "mae": "0.0",
+        "max_error": "0.0",
+        "rmse": "0.0"
+      },
+      "baseline_dense_fp16": {
+        "mse": "2.1808128e-05",
+        "mae": "0.0037284007",
+        "max_error": "0.019741058",
+        "rmse": "0.0046699173"
+      },
+      "baseline_quantized_8bit": {
+        "mse": "0.051437914",
+        "mae": "0.18105707",
+        "max_error": "0.8965864",
+        "rmse": "0.22679928"
+      },
+      "baseline_quantized_4bit": {
+        "mse": "17.113794",
+        "mae": "3.2978296",
+        "max_error": "19.484718",
+        "rmse": "4.1368823"
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "mse": Infinity,
+        "mae": Infinity,
+        "max_error": Infinity,
+        "rmse": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "mse": Infinity,
+        "mae": Infinity,
+        "max_error": Infinity,
+        "rmse": Infinity
+      }
+    },
+    "sparse_0.0_512x512": {
+      "bie_binary": {
+        "mse": "1.851793e-11",
+        "mae": "2.9547862e-06",
+        "max_error": "3.6239624e-05",
+        "rmse": "4.3032464e-06"
+      },
+      "bie_bitplane_8bit": {
+        "mse": "7257.0117",
+        "mae": "66.12874",
+        "max_error": "196.67555",
+        "rmse": "85.188095"
+      },
+      "bie_bitplane_4bit": {
+        "mse": "6389.6567",
+        "mae": "62.20552",
+        "max_error": "192.5048",
+        "rmse": "79.935326"
+      },
+      "bie_blocked_binary": {
+        "mse": "1.2183431e-11",
+        "mae": "2.5794216e-06",
+        "max_error": "2.0980835e-05",
+        "rmse": "3.4904772e-06"
+      },
+      "bie_blocked_bitplane": {
+        "mse": "4.7026952e-11",
+        "mae": "5.0583776e-06",
+        "max_error": "4.386902e-05",
+        "rmse": "6.85762e-06"
+      },
+      "baseline_dense_fp32": {
+        "mse": "0.0",
+        "mae": "0.0",
+        "max_error": "0.0",
+        "rmse": "0.0"
+      },
+      "baseline_dense_fp16": {
+        "mse": "2.1955128e-05",
+        "mae": "0.0037405773",
+        "max_error": "0.020014822",
+        "rmse": "0.00468563"
+      },
+      "baseline_quantized_8bit": {
+        "mse": "0.05194305",
+        "mae": "0.18198712",
+        "max_error": "1.033967",
+        "rmse": "0.22791018"
+      },
+      "baseline_quantized_4bit": {
+        "mse": "17.416622",
+        "mae": "3.331399",
+        "max_error": "17.247627",
+        "rmse": "4.1733227"
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "mse": Infinity,
+        "mae": Infinity,
+        "max_error": Infinity,
+        "rmse": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "mse": Infinity,
+        "mae": Infinity,
+        "max_error": Infinity,
+        "rmse": Infinity
+      }
+    },
+    "sparse_0.3_512x512": {
+      "bie_binary": {
+        "mse": "1.14586274e-11",
+        "mae": "2.2815584e-06",
+        "max_error": "3.8146973e-05",
+        "rmse": "3.3850595e-06"
+      },
+      "bie_bitplane_8bit": {
+        "mse": "10582.227",
+        "mae": "77.72858",
+        "max_error": "346.98572",
+        "rmse": "102.86995"
+      },
+      "bie_bitplane_4bit": {
+        "mse": "9372.416",
+        "mae": "73.12975",
+        "max_error": "346.07",
+        "rmse": "96.81124"
+      },
+      "bie_blocked_binary": {
+        "mse": "7.1662606e-12",
+        "mae": "1.9659592e-06",
+        "max_error": "1.6212463e-05",
+        "rmse": "2.6769872e-06"
+      },
+      "bie_blocked_bitplane": {
+        "mse": "2.4274884e-11",
+        "mae": "3.6109845e-06",
+        "max_error": "3.8146973e-05",
+        "rmse": "4.9269547e-06"
+      },
+      "baseline_dense_fp32": {
+        "mse": "0.0",
+        "mae": "0.0",
+        "max_error": "0.0",
+        "rmse": "0.0"
+      },
+      "baseline_dense_fp16": {
+        "mse": "1.5688554e-05",
+        "mae": "0.0031641414",
+        "max_error": "0.015666962",
+        "rmse": "0.003960878"
+      },
+      "baseline_quantized_8bit": {
+        "mse": "0.035920583",
+        "mae": "0.15070531",
+        "max_error": "0.76432467",
+        "rmse": "0.18952726"
+      },
+      "baseline_quantized_4bit": {
+        "mse": "12.213527",
+        "mae": "2.7806082",
+        "max_error": "14.854787",
+        "rmse": "3.4947855"
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "mse": Infinity,
+        "mae": Infinity,
+        "max_error": Infinity,
+        "rmse": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "mse": Infinity,
+        "mae": Infinity,
+        "max_error": Infinity,
+        "rmse": Infinity
+      }
+    },
+    "sparse_0.5_512x512": {
+      "bie_binary": {
+        "mse": "5.1091622e-12",
+        "mae": "1.5380401e-06",
+        "max_error": "1.9073486e-05",
+        "rmse": "2.2603456e-06"
+      },
+      "bie_bitplane_8bit": {
+        "mse": "12065.182",
+        "mae": "89.09126",
+        "max_error": "232.67268",
+        "rmse": "109.84162"
+      },
+      "bie_bitplane_4bit": {
+        "mse": "10597.369",
+        "mae": "83.5197",
+        "max_error": "235.19298",
+        "rmse": "102.94353"
+      },
+      "bie_blocked_binary": {
+        "mse": "3.4974291e-12",
+        "mae": "1.3550325e-06",
+        "max_error": "1.1444092e-05",
+        "rmse": "1.8701414e-06"
+      },
+      "bie_blocked_bitplane": {
+        "mse": "1.2410433e-11",
+        "mae": "2.5897048e-06",
+        "max_error": "2.4795532e-05",
+        "rmse": "3.5228445e-06"
+      },
+      "baseline_dense_fp32": {
+        "mse": "0.0",
+        "mae": "0.0",
+        "max_error": "0.0",
+        "rmse": "0.0"
+      },
+      "baseline_dense_fp16": {
+        "mse": "1.099216e-05",
+        "mae": "0.0026389235",
+        "max_error": "0.01391983",
+        "rmse": "0.0033154427"
+      },
+      "baseline_quantized_8bit": {
+        "mse": "0.025852336",
+        "mae": "0.12824059",
+        "max_error": "0.72322655",
+        "rmse": "0.16078661"
+      },
+      "baseline_quantized_4bit": {
+        "mse": "8.46183",
+        "mae": "2.3287535",
+        "max_error": "12.737213",
+        "rmse": "2.9089224"
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "mse": Infinity,
+        "mae": Infinity,
+        "max_error": Infinity,
+        "rmse": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "mse": Infinity,
+        "mae": Infinity,
+        "max_error": Infinity,
+        "rmse": Infinity
+      }
+    },
+    "sparse_0.7_512x512": {
+      "bie_binary": {
+        "mse": "1.901331e-12",
+        "mae": "9.354583e-07",
+        "max_error": "1.1444092e-05",
+        "rmse": "1.3788876e-06"
+      },
+      "bie_bitplane_8bit": {
+        "mse": "11371.525",
+        "mae": "86.22406",
+        "max_error": "206.04315",
+        "rmse": "106.63735"
+      },
+      "bie_bitplane_4bit": {
+        "mse": "9768.935",
+        "mae": "79.85362",
+        "max_error": "197.06404",
+        "rmse": "98.83792"
+      },
+      "bie_blocked_binary": {
+        "mse": "1.4803326e-12",
+        "mae": "8.668394e-07",
+        "max_error": "9.536743e-06",
+        "rmse": "1.2166892e-06"
+      },
+      "bie_blocked_bitplane": {
+        "mse": "3543.6746",
+        "mae": "46.770622",
+        "max_error": "178.03738",
+        "rmse": "59.52877"
+      },
+      "baseline_dense_fp32": {
+        "mse": "0.0",
+        "mae": "0.0",
+        "max_error": "0.0",
+        "rmse": "0.0"
+      },
+      "baseline_dense_fp16": {
+        "mse": "6.6863167e-06",
+        "mae": "0.0020504734",
+        "max_error": "0.01142168",
+        "rmse": "0.0025857913"
+      },
+      "baseline_quantized_8bit": {
+        "mse": "0.013955556",
+        "mae": "0.09411545",
+        "max_error": "0.45675087",
+        "rmse": "0.118133634"
+      },
+      "baseline_quantized_4bit": {
+        "mse": "4.5932846",
+        "mae": "1.7135258",
+        "max_error": "10.054056",
+        "rmse": "2.143195"
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "mse": Infinity,
+        "mae": Infinity,
+        "max_error": Infinity,
+        "rmse": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "mse": Infinity,
+        "mae": Infinity,
+        "max_error": Infinity,
+        "rmse": Infinity
+      }
+    },
+    "sparse_0.9_512x512": {
+      "bie_binary": {
+        "mse": "2.4519612e-13",
+        "mae": "3.1365897e-07",
+        "max_error": "3.8146973e-06",
+        "rmse": "4.951728e-07"
+      },
+      "bie_bitplane_8bit": {
+        "mse": "11199.286",
+        "mae": "82.91934",
+        "max_error": "230.91656",
+        "rmse": "105.82668"
+      },
+      "bie_bitplane_4bit": {
+        "mse": "9582.561",
+        "mae": "76.70863",
+        "max_error": "216.8342",
+        "rmse": "97.89056"
+      },
+      "bie_blocked_binary": {
+        "mse": "0.012207439",
+        "mae": "0.0067846896",
+        "max_error": "3.5991974",
+        "rmse": "0.11048728"
+      },
+      "bie_blocked_bitplane": {
+        "mse": "7226.7476",
+        "mae": "67.36075",
+        "max_error": "214.34106",
+        "rmse": "85.01028"
+      },
+      "baseline_dense_fp32": {
+        "mse": "0.0",
+        "mae": "0.0",
+        "max_error": "0.0",
+        "rmse": "0.0"
+      },
+      "baseline_dense_fp16": {
+        "mse": "2.1710055e-06",
+        "mae": "0.0011632781",
+        "max_error": "0.006258011",
+        "rmse": "0.0014734332"
+      },
+      "baseline_quantized_8bit": {
+        "mse": "0.004702607",
+        "mae": "0.054582182",
+        "max_error": "0.27287006",
+        "rmse": "0.06857556"
+      },
+      "baseline_quantized_4bit": {
+        "mse": "1.5018879",
+        "mae": "0.97168505",
+        "max_error": "5.4693184",
+        "rmse": "1.2255154"
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "mse": Infinity,
+        "mae": Infinity,
+        "max_error": Infinity,
+        "rmse": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "mse": Infinity,
+        "mae": Infinity,
+        "max_error": Infinity,
+        "rmse": Infinity
+      }
+    },
+    "sparse_0.95_512x512": {
+      "bie_binary": {
+        "mse": "6.815459e-14",
+        "mae": "1.4861985e-07",
+        "max_error": "1.9073486e-06",
+        "rmse": "2.6106434e-07"
+      },
+      "bie_bitplane_8bit": {
+        "mse": "4589.7095",
+        "mae": "50.81911",
+        "max_error": "158.3999",
+        "rmse": "67.7474"
+      },
+      "bie_bitplane_4bit": {
+        "mse": "3583.497",
+        "mae": "44.884296",
+        "max_error": "151.27655",
+        "rmse": "59.862316"
+      },
+      "bie_blocked_binary": {
+        "mse": "0.01368913",
+        "mae": "0.008959756",
+        "max_error": "3.9670076",
+        "rmse": "0.11700056"
+      },
+      "bie_blocked_bitplane": {
+        "mse": "3757.0396",
+        "mae": "46.369644",
+        "max_error": "170.74889",
+        "rmse": "61.294693"
+      },
+      "baseline_dense_fp32": {
+        "mse": "0.0",
+        "mae": "0.0",
+        "max_error": "0.0",
+        "rmse": "0.0"
+      },
+      "baseline_dense_fp16": {
+        "mse": "1.1116667e-06",
+        "mae": "0.00081666885",
+        "max_error": "0.006239891",
+        "rmse": "0.0010543561"
+      },
+      "baseline_quantized_8bit": {
+        "mse": "0.0019877125",
+        "mae": "0.035399217",
+        "max_error": "0.2028904",
+        "rmse": "0.044583768"
+      },
+      "baseline_quantized_4bit": {
+        "mse": "0.63942647",
+        "mae": "0.63026136",
+        "max_error": "3.3170738",
+        "rmse": "0.7996415"
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "mse": Infinity,
+        "mae": Infinity,
+        "max_error": Infinity,
+        "rmse": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "mse": Infinity,
+        "mae": Infinity,
+        "max_error": Infinity,
+        "rmse": Infinity
+      }
+    }
+  },
+  "memory": {
+    "dense_256x256": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    },
+    "sparse_0.0_256x256": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    },
+    "sparse_0.3_256x256": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    },
+    "sparse_0.5_256x256": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    },
+    "sparse_0.7_256x256": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    },
+    "sparse_0.9_256x256": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 0.03125,
+        "peak_memory_mb": 0.03125
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.03125
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.03125
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.03125
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.03125
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.03125
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.03125
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.03125
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    },
+    "sparse_0.95_256x256": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    },
+    "dense_512x512": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    },
+    "sparse_0.0_512x512": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    },
+    "sparse_0.3_512x512": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    },
+    "sparse_0.5_512x512": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    },
+    "sparse_0.7_512x512": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    },
+    "sparse_0.9_512x512": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    },
+    "sparse_0.95_512x512": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    },
+    "dense_1024x1024": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    },
+    "sparse_0.0_1024x1024": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    },
+    "sparse_0.3_1024x1024": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 5.0625,
+        "peak_memory_mb": 5.0625
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 5.0625
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 5.0625
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 5.0625
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 5.0625
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 5.0625
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 5.0625
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 5.0625
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    },
+    "sparse_0.5_1024x1024": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 12.375,
+        "peak_memory_mb": 12.375
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 12.375
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 12.375
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 12.375
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 12.375
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 12.375
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 12.375
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 12.375
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    },
+    "sparse_0.7_1024x1024": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 0.015625,
+        "peak_memory_mb": 0.015625
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.015625
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.015625
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.015625
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.015625
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.015625
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.015625
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.015625
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    },
+    "sparse_0.9_1024x1024": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    },
+    "sparse_0.95_1024x1024": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    },
+    "dense_2048x1024": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    },
+    "sparse_0.0_2048x1024": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    },
+    "sparse_0.3_2048x1024": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    },
+    "sparse_0.5_2048x1024": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 0.140625,
+        "peak_memory_mb": 0.140625
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.140625
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.140625
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.140625
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.140625
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.140625
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.140625
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.140625
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    },
+    "sparse_0.7_2048x1024": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    },
+    "sparse_0.9_2048x1024": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    },
+    "sparse_0.95_2048x1024": {
+      "bie_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_bitplane_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_binary": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.0
+      },
+      "bie_blocked_bitplane": {
+        "memory_used_mb": 0.015625,
+        "peak_memory_mb": 0.015625
+      },
+      "baseline_dense_fp32": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.015625
+      },
+      "baseline_dense_fp16": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.015625
+      },
+      "baseline_quantized_8bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.015625
+      },
+      "baseline_quantized_4bit": {
+        "memory_used_mb": 0.0,
+        "peak_memory_mb": 0.015625
+      },
+      "baseline_sparse_csr": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      },
+      "baseline_hybrid_8bit": {
+        "error": "name 'sp' is not defined",
+        "memory_used_mb": Infinity,
+        "peak_memory_mb": Infinity
+      }
+    }
+  },
+  "metadata": {
+    "matrix_sizes": [
+      [
+        256,
+        256
+      ],
+      [
+        512,
+        512
+      ],
+      [
+        1024,
+        1024
+      ],
+      [
+        2048,
+        1024
+      ]
+    ],
+    "sparsity_levels": [
+      0.0,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      0.95
+    ],
+    "timestamp": 1758632959.848758
+  }
+}
