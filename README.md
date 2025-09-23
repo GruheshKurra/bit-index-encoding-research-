@@ -194,7 +194,7 @@ Contributions are welcome! Please:
 
 ## Contact
 
-For questions or collaboration opportunities, please contact [your email].
+For questions or collaboration opportunities, please contact [gruheshkurra2@gmail.com].
 
 ---
 
