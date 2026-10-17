@@ -1,0 +1,69 @@
+{
+ "shape": [
+  2048,
+  1024
+ ],
+ "x_cols": 64,
+ "rows": [
+  {
+   "sparsity": 0.5,
+   "dense_fp32": 0.0004277629777789116,
+   "scipy_csr_fp32": 0.008134359028190374,
+   "bie_binary_kernel": 0.014917630236595869,
+   "bie2_kernel": 0.0006750049069523811,
+   "bie2_index_decode_once": 0.012667164206504822,
+   "bie2_kernel_vs_its_decode": 8.636638426651189e-07,
+   "bie_binary_kernel_vs_its_decode": 9.71621830103686e-07,
+   "bie2_output_rel_err": 0.007391221821308136,
+   "bie_binary_output_rel_err": 0.6361982226371765
+  },
+  {
+   "sparsity": 0.7,
+   "dense_fp32": 0.0003558020107448101,
+   "scipy_csr_fp32": 0.005026347003877163,
+   "bie_binary_kernel": 0.009152777027338743,
+   "bie2_kernel": 0.0004935241304337978,
+   "bie2_index_decode_once": 0.007230073679238558,
+   "bie2_kernel_vs_its_decode": 7.750545591989066e-07,
+   "bie_binary_kernel_vs_its_decode": 9.203772606269922e-07,
+   "bie2_output_rel_err": 0.007059325929731131,
+   "bie_binary_output_rel_err": 0.637711763381958
+  },
+  {
+   "sparsity": 0.9,
+   "dense_fp32": 0.00027043186128139496,
+   "scipy_csr_fp32": 0.0017242222093045712,
+   "bie_binary_kernel": 0.002989482134580612,
+   "bie2_kernel": 0.00015762122347950935,
+   "bie2_index_decode_once": 0.002472538035362959,
+   "bie2_kernel_vs_its_decode": 4.231185926073522e-07,
+   "bie_binary_kernel_vs_its_decode": 4.654304461837455e-07,
+   "bie2_output_rel_err": 0.006268580909818411,
+   "bie_binary_output_rel_err": 0.6352208256721497
+  },
+  {
+   "sparsity": 0.95,
+   "dense_fp32": 0.00023541180416941643,
+   "scipy_csr_fp32": 0.0008522458374500275,
+   "bie_binary_kernel": 0.0014742808416485786,
+   "bie2_kernel": 0.00010889070108532906,
+   "bie2_index_decode_once": 0.0013839909806847572,
+   "bie2_kernel_vs_its_decode": 2.661416829141672e-07,
+   "bie_binary_kernel_vs_its_decode": 3.1937000244397495e-07,
+   "bie2_output_rel_err": 0.005753997713327408,
+   "bie_binary_output_rel_err": 0.6365814805030823
+  },
+  {
+   "sparsity": 0.99,
+   "dense_fp32": 0.0002816920168697834,
+   "scipy_csr_fp32": 0.00025324197486042976,
+   "bie_binary_kernel": 0.0003903633914887905,
+   "bie2_kernel": 9.568082168698311e-05,
+   "bie2_index_decode_once": 0.0003779130056500435,
+   "bie2_kernel_vs_its_decode": 1.4895947231252649e-07,
+   "bie_binary_kernel_vs_its_decode": 1.9861262501308374e-07,
+   "bie2_output_rel_err": 0.004270103760063648,
+   "bie_binary_output_rel_err": 0.6314681172370911
+  }
+ ]
+}

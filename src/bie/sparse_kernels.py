@@ -17,7 +17,7 @@ class BIESparseKernels:
     """
     
     @staticmethod
-    @jit(nopython=True, parallel=True)
+    @jit(nopython=True)
     def sparse_dense_matmul_indices(indices: np.ndarray, values: np.ndarray, 
                                    dense_matrix: np.ndarray, output: np.ndarray,
                                    rows: int, cols: int) -> None:
@@ -25,7 +25,8 @@ class BIESparseKernels:
         The core sparse-dense multiplication - took forever to get the indexing right.
         Works directly with the BIE indices instead of reconstructing the full matrix.
         """
-        for idx in prange(len(indices)):
+        # serial loop: several indices can share an output row, so a parallel loop races
+        for idx in range(len(indices)):
             flat_idx = indices[idx]
             row = flat_idx // cols
             col = flat_idx % cols
@@ -36,7 +37,7 @@ class BIESparseKernels:
                 output[row, j] += value * dense_matrix[col, j]
     
     @staticmethod
-    @jit(nopython=True, parallel=True)
+    @jit(nopython=True)
     def binary_matmul_indices(indices: np.ndarray, sign_indices: np.ndarray,
                              dense_matrix: np.ndarray, output: np.ndarray,
                              rows: int, cols: int) -> None:
@@ -45,7 +46,7 @@ class BIESparseKernels:
         The sign handling was tricky but gives good speedup.
         """
         # First pass: add all positive contributions
-        for idx in prange(len(indices)):
+        for idx in range(len(indices)):
             flat_idx = indices[idx]
             row = flat_idx // cols
             col = flat_idx % cols
@@ -55,7 +56,7 @@ class BIESparseKernels:
         
         # Second pass: subtract negative contributions
         if len(sign_indices) > 0:
-            for idx in prange(len(sign_indices)):
+            for idx in range(len(sign_indices)):
                 flat_idx = sign_indices[idx]
                 row = flat_idx // cols
                 col = flat_idx % cols
@@ -80,7 +81,7 @@ class BIESparseKernels:
                 indices = bitplane_indices[bit_pos]
                 weight = bitplane_weights[bit_pos]  # 2^bit_pos
                 
-                for idx in prange(len(indices)):
+                for idx in range(len(indices)):
                     flat_idx = indices[idx]
                     row = flat_idx // cols
                     col = flat_idx % cols

@@ -1,0 +1,338 @@
+[
+ {
+  "sparsity": 0.5,
+  "seed": 0,
+  "planes": 1,
+  "value_bits": 2,
+  "bytes_read": 266295,
+  "rel_err": 0.47775647044181824
+ },
+ {
+  "sparsity": 0.5,
+  "seed": 0,
+  "planes": 2,
+  "value_bits": 3,
+  "bytes_read": 331909,
+  "rel_err": 0.23899561166763306
+ },
+ {
+  "sparsity": 0.5,
+  "seed": 0,
+  "planes": 3,
+  "value_bits": 4,
+  "bytes_read": 397523,
+  "rel_err": 0.119893878698349
+ },
+ {
+  "sparsity": 0.5,
+  "seed": 0,
+  "planes": 4,
+  "value_bits": 5,
+  "bytes_read": 463137,
+  "rel_err": 0.060852594673633575
+ },
+ {
+  "sparsity": 0.5,
+  "seed": 0,
+  "planes": 5,
+  "value_bits": 6,
+  "bytes_read": 528751,
+  "rel_err": 0.03238281235098839
+ },
+ {
+  "sparsity": 0.5,
+  "seed": 0,
+  "planes": 6,
+  "value_bits": 7,
+  "bytes_read": 594365,
+  "rel_err": 0.019615573808550835
+ },
+ {
+  "sparsity": 0.5,
+  "seed": 0,
+  "planes": 7,
+  "value_bits": 8,
+  "bytes_read": 659979,
+  "rel_err": 0.0074423449113965034
+ },
+ {
+  "sparsity": 0.5,
+  "seed": 1,
+  "planes": 1,
+  "value_bits": 2,
+  "bytes_read": 266081,
+  "rel_err": 0.4797033965587616
+ },
+ {
+  "sparsity": 0.5,
+  "seed": 1,
+  "planes": 2,
+  "value_bits": 3,
+  "bytes_read": 331591,
+  "rel_err": 0.23978857696056366
+ },
+ {
+  "sparsity": 0.5,
+  "seed": 1,
+  "planes": 3,
+  "value_bits": 4,
+  "bytes_read": 397101,
+  "rel_err": 0.12037413567304611
+ },
+ {
+  "sparsity": 0.5,
+  "seed": 1,
+  "planes": 4,
+  "value_bits": 5,
+  "bytes_read": 462611,
+  "rel_err": 0.06106596067547798
+ },
+ {
+  "sparsity": 0.5,
+  "seed": 1,
+  "planes": 5,
+  "value_bits": 6,
+  "bytes_read": 528121,
+  "rel_err": 0.03246800974011421
+ },
+ {
+  "sparsity": 0.5,
+  "seed": 1,
+  "planes": 6,
+  "value_bits": 7,
+  "bytes_read": 593631,
+  "rel_err": 0.01966300792992115
+ },
+ {
+  "sparsity": 0.5,
+  "seed": 1,
+  "planes": 7,
+  "value_bits": 8,
+  "bytes_read": 659141,
+  "rel_err": 0.007456031162291765
+ },
+ {
+  "sparsity": 0.5,
+  "seed": 2,
+  "planes": 1,
+  "value_bits": 2,
+  "bytes_read": 266286,
+  "rel_err": 0.4772844910621643
+ },
+ {
+  "sparsity": 0.5,
+  "seed": 2,
+  "planes": 2,
+  "value_bits": 3,
+  "bytes_read": 331897,
+  "rel_err": 0.23852582275867462
+ },
+ {
+  "sparsity": 0.5,
+  "seed": 2,
+  "planes": 3,
+  "value_bits": 4,
+  "bytes_read": 397508,
+  "rel_err": 0.11961792409420013
+ },
+ {
+  "sparsity": 0.5,
+  "seed": 2,
+  "planes": 4,
+  "value_bits": 5,
+  "bytes_read": 463119,
+  "rel_err": 0.0607270747423172
+ },
+ {
+  "sparsity": 0.5,
+  "seed": 2,
+  "planes": 5,
+  "value_bits": 6,
+  "bytes_read": 528730,
+  "rel_err": 0.032269127666950226
+ },
+ {
+  "sparsity": 0.5,
+  "seed": 2,
+  "planes": 6,
+  "value_bits": 7,
+  "bytes_read": 594341,
+  "rel_err": 0.019599854946136475
+ },
+ {
+  "sparsity": 0.5,
+  "seed": 2,
+  "planes": 7,
+  "value_bits": 8,
+  "bytes_read": 659952,
+  "rel_err": 0.007428308948874474
+ },
+ {
+  "sparsity": 0.9,
+  "seed": 0,
+  "planes": 1,
+  "value_bits": 2,
+  "bytes_read": 92364,
+  "rel_err": 0.40739455819129944
+ },
+ {
+  "sparsity": 0.9,
+  "seed": 0,
+  "planes": 2,
+  "value_bits": 3,
+  "bytes_read": 105444,
+  "rel_err": 0.2041856348514557
+ },
+ {
+  "sparsity": 0.9,
+  "seed": 0,
+  "planes": 3,
+  "value_bits": 4,
+  "bytes_read": 118524,
+  "rel_err": 0.1022031232714653
+ },
+ {
+  "sparsity": 0.9,
+  "seed": 0,
+  "planes": 4,
+  "value_bits": 5,
+  "bytes_read": 131604,
+  "rel_err": 0.05180805176496506
+ },
+ {
+  "sparsity": 0.9,
+  "seed": 0,
+  "planes": 5,
+  "value_bits": 6,
+  "bytes_read": 144684,
+  "rel_err": 0.02741316519677639
+ },
+ {
+  "sparsity": 0.9,
+  "seed": 0,
+  "planes": 6,
+  "value_bits": 7,
+  "bytes_read": 157764,
+  "rel_err": 0.016608070582151413
+ },
+ {
+  "sparsity": 0.9,
+  "seed": 0,
+  "planes": 7,
+  "value_bits": 8,
+  "bytes_read": 170844,
+  "rel_err": 0.006298293359577656
+ },
+ {
+  "sparsity": 0.9,
+  "seed": 1,
+  "planes": 1,
+  "value_bits": 2,
+  "bytes_read": 92478,
+  "rel_err": 0.4105685353279114
+ },
+ {
+  "sparsity": 0.9,
+  "seed": 1,
+  "planes": 2,
+  "value_bits": 3,
+  "bytes_read": 105578,
+  "rel_err": 0.20491555333137512
+ },
+ {
+  "sparsity": 0.9,
+  "seed": 1,
+  "planes": 3,
+  "value_bits": 4,
+  "bytes_read": 118678,
+  "rel_err": 0.10271794348955154
+ },
+ {
+  "sparsity": 0.9,
+  "seed": 1,
+  "planes": 4,
+  "value_bits": 5,
+  "bytes_read": 131778,
+  "rel_err": 0.05207589641213417
+ },
+ {
+  "sparsity": 0.9,
+  "seed": 1,
+  "planes": 5,
+  "value_bits": 6,
+  "bytes_read": 144878,
+  "rel_err": 0.02748413011431694
+ },
+ {
+  "sparsity": 0.9,
+  "seed": 1,
+  "planes": 6,
+  "value_bits": 7,
+  "bytes_read": 157978,
+  "rel_err": 0.016662245616316795
+ },
+ {
+  "sparsity": 0.9,
+  "seed": 1,
+  "planes": 7,
+  "value_bits": 8,
+  "bytes_read": 171078,
+  "rel_err": 0.006317689083516598
+ },
+ {
+  "sparsity": 0.9,
+  "seed": 2,
+  "planes": 1,
+  "value_bits": 2,
+  "bytes_read": 92587,
+  "rel_err": 0.41055867075920105
+ },
+ {
+  "sparsity": 0.9,
+  "seed": 2,
+  "planes": 2,
+  "value_bits": 3,
+  "bytes_read": 105703,
+  "rel_err": 0.20580895245075226
+ },
+ {
+  "sparsity": 0.9,
+  "seed": 2,
+  "planes": 3,
+  "value_bits": 4,
+  "bytes_read": 118819,
+  "rel_err": 0.10310818254947662
+ },
+ {
+  "sparsity": 0.9,
+  "seed": 2,
+  "planes": 4,
+  "value_bits": 5,
+  "bytes_read": 131935,
+  "rel_err": 0.05223898962140083
+ },
+ {
+  "sparsity": 0.9,
+  "seed": 2,
+  "planes": 5,
+  "value_bits": 6,
+  "bytes_read": 145051,
+  "rel_err": 0.02764757350087166
+ },
+ {
+  "sparsity": 0.9,
+  "seed": 2,
+  "planes": 6,
+  "value_bits": 7,
+  "bytes_read": 158167,
+  "rel_err": 0.01668943092226982
+ },
+ {
+  "sparsity": 0.9,
+  "seed": 2,
+  "planes": 7,
+  "value_bits": 8,
+  "bytes_read": 171283,
+  "rel_err": 0.0063448715955019
+ }
+]

@@ -155,9 +155,9 @@ class BenchmarkRunner:
                         for _ in range(5):  # Average over multiple runs
                             start_time = time.time()
                             if encoded['type'] == 'binary':
-                                result = matmul.binary_matmul(encoded, input_tensor)
+                                result = matmul.matmul_binary(encoded, input_tensor)
                             elif encoded['type'] == 'bitplane':
-                                result = matmul.bitplane_matmul(encoded, input_tensor)
+                                result = matmul.matmul_bitplane(encoded, input_tensor)
                             else:
                                 # Fallback to standard multiplication
                                 decoded = decoder.decode(encoded)
@@ -257,9 +257,9 @@ class BenchmarkRunner:
                     
                     # Get result
                     if encoded['type'] == 'binary':
-                        result = matmul.binary_matmul(encoded, input_tensors[matrix_name])
+                        result = matmul.matmul_binary(encoded, input_tensors[matrix_name])
                     elif encoded['type'] == 'bitplane':
-                        result = matmul.bitplane_matmul(encoded, input_tensors[matrix_name])
+                        result = matmul.matmul_bitplane(encoded, input_tensors[matrix_name])
                     else:
                         decoded = decoder.decode(encoded)
                         result = np.dot(decoded, input_tensors[matrix_name])
