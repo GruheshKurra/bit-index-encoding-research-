@@ -1,6 +1,12 @@
 """
-My implementation of Bit-Index Encoding (BIE) for neural network weight compression.
-After lots of experimentation, I settled on these binary and bitplane variants.
+Early BIE variants, kept for comparison with the final format in codec.py.
+
+  * binary:   stores only the positions and signs of the non-zeros (values become +-1)
+  * bitplane: quantises every weight to 8 bits over [min, max] and stores each bit layer
+  * blocked:  either of the above applied to 64x64 tiles
+
+The experiments show why codec.py differs: binary loses the values, and bitplane turns
+zeros into non-zero codes, so it is larger than float32.
 """
 
 import numpy as np

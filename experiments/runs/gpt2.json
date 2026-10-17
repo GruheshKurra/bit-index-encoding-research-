@@ -58,7 +58,7 @@
   },
   {
    "sparsity": 0.0,
-   "method": "bie_binary",
+   "method": "early_positions",
    "bytes": 510583104,
    "ratio": 0.665393393041067,
    "rel_err": 6.936598683334065,
@@ -67,7 +67,7 @@
   },
   {
    "sparsity": 0.0,
-   "method": "bie_bitplane8",
+   "method": "early_bitplane8",
    "bytes": 1276833324,
    "ratio": 0.26607907047388435,
    "rel_err": 0.08158977977046533,
@@ -76,7 +76,7 @@
   },
   {
    "sparsity": 0.0,
-   "method": "bie2_8",
+   "method": "bie_8bit",
    "bytes": 95884032,
    "ratio": 3.5432242148515405,
    "rel_err": 0.011236396937168616,
@@ -85,7 +85,7 @@
   },
   {
    "sparsity": 0.0,
-   "method": "bie2_4",
+   "method": "bie_4bit",
    "bytes": 53416704,
    "ratio": 6.360157002573577,
    "rel_err": 0.18465559235560441,
@@ -148,7 +148,7 @@
   },
   {
    "sparsity": 0.5,
-   "method": "bie_binary",
+   "method": "early_positions",
    "bytes": 255621192,
    "ratio": 1.3290706507620071,
    "rel_err": 4.716826795776475,
@@ -157,7 +157,7 @@
   },
   {
    "sparsity": 0.5,
-   "method": "bie_bitplane8",
+   "method": "early_bitplane8",
    "bytes": 1250858812,
    "ratio": 0.27160429357873844,
    "rel_err": 0.08317464818207657,
@@ -166,7 +166,7 @@
   },
   {
    "sparsity": 0.5,
-   "method": "bie2_8",
+   "method": "bie_8bit",
    "bytes": 53399910,
    "ratio": 6.362157239590854,
    "rel_err": 0.008384024540835554,
@@ -175,7 +175,7 @@
   },
   {
    "sparsity": 0.5,
-   "method": "bie2_4",
+   "method": "bie_4bit",
    "bytes": 32166246,
    "ratio": 10.561960634138034,
    "rel_err": 0.1470505808658377,
@@ -238,7 +238,7 @@
   },
   {
    "sparsity": 0.7,
-   "method": "bie_binary",
+   "method": "early_positions",
    "bytes": 153496904,
    "ratio": 2.2133255795178775,
    "rel_err": 3.7425577590830024,
@@ -247,7 +247,7 @@
   },
   {
    "sparsity": 0.7,
-   "method": "bie_bitplane8",
+   "method": "early_bitplane8",
    "bytes": 1230529872,
    "ratio": 0.27609132596498237,
    "rel_err": 0.08846005213283212,
@@ -256,7 +256,7 @@
   },
   {
    "sparsity": 0.7,
-   "method": "bie2_8",
+   "method": "bie_8bit",
    "bytes": 35231418,
    "ratio": 9.643058476953723,
    "rel_err": 0.007256126518026998,
@@ -265,7 +265,7 @@
   },
   {
    "sparsity": 0.7,
-   "method": "bie2_4",
+   "method": "bie_4bit",
    "bytes": 22491114,
    "ratio": 15.105460049688958,
    "rel_err": 0.13144703913308053,
@@ -328,7 +328,7 @@
   },
   {
    "sparsity": 0.9,
-   "method": "bie_binary",
+   "method": "early_positions",
    "bytes": 51228752,
    "ratio": 6.631795832153006,
    "rel_err": 2.505735934775726,
@@ -337,7 +337,7 @@
   },
   {
    "sparsity": 0.9,
-   "method": "bie_bitplane8",
+   "method": "early_bitplane8",
    "bytes": 1204925716,
    "ratio": 0.28195814853037793,
    "rel_err": 0.11306549626590653,
@@ -346,7 +346,7 @@
   },
   {
    "sparsity": 0.9,
-   "method": "bie2_8",
+   "method": "bie_8bit",
    "bytes": 13841469,
    "ratio": 24.54498319506405,
    "rel_err": 0.006381790820455085,
@@ -355,7 +355,7 @@
   },
   {
    "sparsity": 0.9,
-   "method": "bie2_4",
+   "method": "bie_4bit",
    "bytes": 9594621,
    "ratio": 35.409280262346996,
    "rel_err": 0.11565048436380919,

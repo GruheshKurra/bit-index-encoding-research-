@@ -1,17 +1,14 @@
 """
-BIE-v2: Bit-Index Encoding that keeps the weight values.
+BIE: Bit-Index Encoding of sparse weight matrices.
 
-What changed from the original BIE (src/bie/encoder.py):
   * Positions of non-zeros are stored as per-row gaps, Golomb-Rice coded at the
-    bit level (or as a plain bitmap when that is smaller). Indices are lossless.
-  * Values are kept: each non-zero is quantised to a signed b-bit integer with a
-    per-row scale (fp16). The original binary variant dropped magnitudes.
-  * Zero stays zero. The original bitplane variant quantised over [min, max], so
-    zeros became non-zero codes and the encoding was larger than float32.
-  * Magnitudes are stored as bitplanes over the non-zero list, MSB first, so a
-    reader can use only the top p planes (progressive precision).
+    bit level (or as a plain bitmap when that is smaller). Positions are lossless.
+  * Each non-zero keeps its value as a signed b-bit integer with one fp16 scale
+    per row. Zero stays exactly zero.
+  * Magnitudes are stored as bitplanes over the non-zero list, most significant
+    first, so a reader can use only the top p planes (progressive precision).
   * The multiply kernel is parallel over output rows, so threads never write to
-    the same row (the original binary kernel had a race and gave wrong outputs).
+    the same row.
 
 Storage is counted from the arrays actually stored (nbytes), not from a formula.
 """
@@ -83,7 +80,7 @@ def _gaps_to_cols(gaps, row_nnz):
 # ---------- container ----------
 
 @dataclass
-class BIE2Matrix:
+class BIEMatrix:
     shape: tuple
     bits: int                 # value bits incl. sign
     index_mode: str           # "rice" or "bitmap"
@@ -139,7 +136,7 @@ def encode(W, bits=8):
         mode, stream = "bitmap", np.packbits(W != 0)
 
     rn_dtype = np.uint16 if cols < 65536 else np.uint32
-    return BIE2Matrix((rows, cols), bits, mode, best_k, stream,
+    return BIEMatrix((rows, cols), bits, mode, best_k, stream,
                       row_nnz.astype(rn_dtype), scales, sign_plane, mag_planes, nnz)
 
 
@@ -193,7 +190,7 @@ def _csr_int_matmul(indptr, cols, q, scales, X, out):
                 out[r, j] += v * X[c, j]
 
 
-class BIE2Operator:
+class BIEOperator:
     """Indices decoded once at load; values stay as int8 codes plus row scales."""
 
     def __init__(self, E, planes=None):

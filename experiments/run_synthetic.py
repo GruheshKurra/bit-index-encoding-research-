@@ -1,9 +1,9 @@
 """
-Synthetic benchmark, paper protocol: Gaussian matrices 256x256 to 2048x1024, sparsity 0-95%,
+Synthetic benchmark: Gaussian matrices 256x256 to 2048x1024, sparsity 0-95%,
 random (unstructured) zero mask. Three seeds per setting.
 
 Writes experiments/runs/synthetic.json (storage + error), timing.json (multiply speed and
-kernel correctness) and progressive.json (BIE-v2 error vs number of bitplanes read).
+kernel correctness) and progressive.json (BIE error vs number of bitplanes read).
 """
 
 import json
@@ -13,8 +13,8 @@ from pathlib import Path
 import numpy as np
 import scipy.sparse as sp
 
-from methods import METHODS, bie2, BIEEncoder, BIEDecoder
-from src.bie.sparse_kernels import BIEMatMul
+from methods import METHODS, codec, BIEEncoder, BIEDecoder
+from src.bie.early_kernels import BIEMatMul
 
 OUT = Path(__file__).resolve().parent / "runs"
 OUT.mkdir(exist_ok=True)
@@ -70,26 +70,26 @@ def timing():
         X = np.random.default_rng(1).standard_normal((shape[1], ncols)).astype(np.float32)
         ref = W @ X
         A = sp.csr_matrix(W)
-        E = bie2.encode(W, 8)
-        op = bie2.BIE2Operator(E)
+        E = codec.encode(W, 8)
+        op = codec.BIEOperator(E)
         eb = BIEEncoder("binary").encode(W)
         mm = BIEMatMul()
-        Yv2 = op.matmul(X)
-        Dv2 = bie2.decode(E)
+        Y_bie = op.matmul(X)
+        D_bie = codec.decode(E)
         Yb = mm.matmul(eb, X)
         Db = BIEDecoder.decode(eb).astype(np.float32)
-        t_idx = median_time(lambda: bie2.decode_indices(E), reps=3)
+        t_idx = median_time(lambda: codec.decode_indices(E), reps=3)
         rows.append(dict(
             sparsity=s,
             dense_fp32=median_time(lambda: W @ X),
             scipy_csr_fp32=median_time(lambda: A @ X),
-            bie_binary_kernel=median_time(lambda: mm.matmul(eb, X)),
-            bie2_kernel=median_time(lambda: op.matmul(X)),
-            bie2_index_decode_once=t_idx,
-            bie2_kernel_vs_its_decode=float(np.abs(Yv2 - Dv2 @ X).max() / np.abs(ref).max()),
-            bie_binary_kernel_vs_its_decode=float(np.abs(Yb - Db @ X).max() / np.abs(ref).max()),
-            bie2_output_rel_err=rel_err(ref, Yv2),
-            bie_binary_output_rel_err=rel_err(ref, Yb),
+            early_positions_kernel=median_time(lambda: mm.matmul(eb, X)),
+            bie_kernel=median_time(lambda: op.matmul(X)),
+            bie_index_decode_once=t_idx,
+            bie_kernel_vs_its_decode=float(np.abs(Y_bie - D_bie @ X).max() / np.abs(ref).max()),
+            early_positions_kernel_vs_its_decode=float(np.abs(Yb - Db @ X).max() / np.abs(ref).max()),
+            bie_output_rel_err=rel_err(ref, Y_bie),
+            early_positions_output_rel_err=rel_err(ref, Yb),
         ))
         print(f"timing s={s} done", flush=True)
     (OUT / "timing.json").write_text(json.dumps(dict(shape=shape, x_cols=ncols, rows=rows), indent=1))
@@ -100,13 +100,13 @@ def progressive():
     for s in [0.5, 0.9]:
         for seed in SEEDS:
             W = make((1024, 1024), s, seed)
-            E = bie2.encode(W, 8)
+            E = codec.encode(W, 8)
             full = E.nbytes()
             plane = E.mag_planes[0].nbytes
             for p in range(1, 8):
                 rows.append(dict(sparsity=s, seed=seed, planes=p, value_bits=p + 1,
                                  bytes_read=full - (7 - p) * plane,
-                                 rel_err=rel_err(W, bie2.decode(E, planes=p))))
+                                 rel_err=rel_err(W, codec.decode(E, planes=p))))
     (OUT / "progressive.json").write_text(json.dumps(rows, indent=1))
 
 

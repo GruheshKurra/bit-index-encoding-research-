@@ -27,9 +27,9 @@ OUT.mkdir(exist_ok=True)
 
 SPARSITY = [0.0, 0.5, 0.7, 0.9]
 STORAGE = ["fp32", "fp16", "int8_rowwise", "csr_fp32", "csr_int8", "bitmap_int8",
-           "bie_binary", "bie_bitplane8", "bie2_8", "bie2_4"]
+           "early_positions", "early_bitplane8", "bie_8bit", "bie_4bit"]
 # methods whose reconstruction equals another's, so perplexity is evaluated once
-SAME_AS = {"csr_fp32": "fp32", "csr_int8": "bie2_8", "bitmap_int8": "bie2_8"}
+SAME_AS = {"csr_fp32": "fp32", "csr_int8": "bie_8bit", "bitmap_int8": "bie_8bit"}
 WINDOW = 1024
 
 torch.manual_seed(0)

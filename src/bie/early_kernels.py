@@ -1,6 +1,7 @@
 """
-My sparse matrix kernels for BIE - this was the hardest part to get right!
-Had to optimize these operations to work directly on the compressed data.
+Multiply kernels for the early BIE variants (early_encoder.py).
+The loops over non-zeros are serial: several non-zeros can share an output row,
+so a parallel loop over them would race on that row.
 """
 
 import numpy as np
@@ -283,7 +284,7 @@ def benchmark_sparse_kernels(weight_matrix: np.ndarray, input_tensor: np.ndarray
     Benchmark my sparse kernels against different baselines.
     This helped me validate that the optimizations actually work!
     """
-    from .encoder import BIEEncoder
+    from .early_encoder import BIEEncoder
     
     results = {
         'sparsity_levels': sparsity_levels,

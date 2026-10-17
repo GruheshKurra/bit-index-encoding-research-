@@ -1,5 +1,5 @@
 """
-Every compression method in the re-run, behind one interface:
+Every storage format in the experiments, behind one interface:
     fn(W) -> (stored_bytes, reconstructed_W)
 Stored bytes are the nbytes of the arrays a method keeps, so ratios are measured, not modelled.
 """
@@ -11,8 +11,8 @@ import numpy as np
 import scipy.sparse as sp
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from src.bie.encoder import BIEEncoder, BIEDecoder  # original BIE (paper version)
-from src.bie import bie2                             # improved BIE-v2
+from src.bie.early_encoder import BIEEncoder, BIEDecoder  # early variants
+from src.bie import codec                                 # final BIE format
 
 
 def fp32(W):
@@ -37,8 +37,8 @@ def csr_fp32(W):
 
 
 def _int8_nonzeros(W):
-    """Same per-row int8 quantisation of the non-zeros that BIE-v2 uses, so errors match exactly."""
-    return bie2.decode(bie2.encode(W, 8))
+    """Same per-row int8 quantisation of the non-zeros that BIE uses, so errors match exactly."""
+    return codec.decode(codec.encode(W, 8))
 
 
 def csr_int8(W):
@@ -54,13 +54,13 @@ def bitmap_int8(W):
     return (rows * cols + 7) // 8 + nnz + 2 * rows, _int8_nonzeros(W)
 
 
-def bie_binary(W):
+def early_positions(W):
     e = BIEEncoder("binary").encode(W)
     b = e["indices"].nbytes + (e["sign_indices"].nbytes if e["sign_indices"] is not None else 0)
     return b, BIEDecoder.decode(e).astype(np.float32)
 
 
-def bie_bitplane8(W):
+def early_bitplane8(W):
     e = BIEEncoder("bitplane").encode(W, num_bits=8)
     b = sum(p.nbytes for p in e["bitplanes"]) + 8  # + min/max
     return b, BIEDecoder.decode(e).astype(np.float32)
@@ -79,22 +79,22 @@ def _blocked(W, kind):
     return b, BIEDecoder.decode(e).astype(np.float32)
 
 
-def bie_blocked_binary(W):
+def early_blocked_positions(W):
     return _blocked(W, "binary")
 
 
-def bie_blocked_bitplane(W):
+def early_blocked_bitplane(W):
     return _blocked(W, "bitplane")
 
 
-def bie2_8(W):
-    E = bie2.encode(W, 8)
-    return E.nbytes(), bie2.decode(E)
+def bie_8bit(W):
+    E = codec.encode(W, 8)
+    return E.nbytes(), codec.decode(E)
 
 
-def bie2_4(W):
-    E = bie2.encode(W, 4)
-    return E.nbytes(), bie2.decode(E)
+def bie_4bit(W):
+    E = codec.encode(W, 4)
+    return E.nbytes(), codec.decode(E)
 
 
 METHODS = {
@@ -104,12 +104,12 @@ METHODS = {
     "csr_fp32": csr_fp32,
     "csr_int8": csr_int8,
     "bitmap_int8": bitmap_int8,
-    "bie_binary": bie_binary,
-    "bie_bitplane8": bie_bitplane8,
-    "bie_blocked_binary": bie_blocked_binary,
-    "bie_blocked_bitplane": bie_blocked_bitplane,
-    "bie2_8": bie2_8,
-    "bie2_4": bie2_4,
+    "early_positions": early_positions,
+    "early_bitplane8": early_bitplane8,
+    "early_blocked_positions": early_blocked_positions,
+    "early_blocked_bitplane": early_blocked_bitplane,
+    "bie_8bit": bie_8bit,
+    "bie_4bit": bie_4bit,
 }
 
 LABELS = {
@@ -119,10 +119,10 @@ LABELS = {
     "csr_fp32": "CSR float32",
     "csr_int8": "CSR int8 + uint16 cols",
     "bitmap_int8": "Bitmap + int8 values",
-    "bie_binary": "BIE binary (paper)",
-    "bie_bitplane8": "BIE bitplane 8-bit (paper)",
-    "bie_blocked_binary": "BIE blocked binary (paper)",
-    "bie_blocked_bitplane": "BIE blocked bitplane (paper)",
-    "bie2_8": "BIE-v2 8-bit (this re-run)",
-    "bie2_4": "BIE-v2 4-bit (this re-run)",
+    "early_positions": "Early variant: positions + signs only",
+    "early_bitplane8": "Early variant: bitplanes over all weights",
+    "early_blocked_positions": "Early variant: positions only, 64x64 tiles",
+    "early_blocked_bitplane": "Early variant: bitplanes, 64x64 tiles",
+    "bie_8bit": "BIE 8-bit",
+    "bie_4bit": "BIE 4-bit",
 }

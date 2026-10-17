@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 500" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <rect width="860" height="500" fill="#ffffff"/>
+  <text x="20" y="30" font-size="17" font-weight="bold" fill="#222">One row of 16 weights (float32: 16 × 32 = 512 bits)</text>
+  <!-- the row -->
+  <g transform="translate(20,45)">
+    <g font-size="12" text-anchor="middle">
+      <rect x="0" y="0" width="50" height="36" fill="#f2f2f2" stroke="#999"/><text x="25" y="23">0</text>
+      <rect x="51" y="0" width="50" height="36" fill="#f2f2f2" stroke="#999"/><text x="76" y="23">0</text>
+      <rect x="102" y="0" width="50" height="36" fill="#f8bbd0" stroke="#c2185b"/><text x="127" y="23">0.8</text>
+      <rect x="153" y="0" width="50" height="36" fill="#f2f2f2" stroke="#999"/><text x="178" y="23">0</text>
+      <rect x="204" y="0" width="50" height="36" fill="#f2f2f2" stroke="#999"/><text x="229" y="23">0</text>
+      <rect x="255" y="0" width="50" height="36" fill="#f2f2f2" stroke="#999"/><text x="280" y="23">0</text>
+      <rect x="306" y="0" width="50" height="36" fill="#f2f2f2" stroke="#999"/><text x="331" y="23">0</text>
+      <rect x="357" y="0" width="50" height="36" fill="#f8bbd0" stroke="#c2185b"/><text x="382" y="23">−0.3</text>
+      <rect x="408" y="0" width="50" height="36" fill="#f2f2f2" stroke="#999"/><text x="433" y="23">0</text>
+      <rect x="459" y="0" width="50" height="36" fill="#f2f2f2" stroke="#999"/><text x="484" y="23">0</text>
+      <rect x="510" y="0" width="50" height="36" fill="#f2f2f2" stroke="#999"/><text x="535" y="23">0</text>
+      <rect x="561" y="0" width="50" height="36" fill="#f2f2f2" stroke="#999"/><text x="586" y="23">0</text>
+      <rect x="612" y="0" width="50" height="36" fill="#f2f2f2" stroke="#999"/><text x="637" y="23">0</text>
+      <rect x="663" y="0" width="50" height="36" fill="#f2f2f2" stroke="#999"/><text x="688" y="23">0</text>
+      <rect x="714" y="0" width="50" height="36" fill="#f8bbd0" stroke="#c2185b"/><text x="739" y="23">1.2</text>
+      <rect x="765" y="0" width="50" height="36" fill="#f2f2f2" stroke="#999"/><text x="790" y="23">0</text>
+    </g>
+    <g font-size="11" fill="#777" text-anchor="middle">
+      <text x="127" y="52">col 2</text><text x="382" y="52">col 7</text><text x="739" y="52">col 14</text>
+    </g>
+  </g>
+
+  <!-- positions -->
+  <text x="20" y="140" font-size="16" font-weight="bold" fill="#1565c0">1. Positions → gaps → Golomb-Rice bits (lossless)</text>
+  <text x="20" y="165" fill="#333">Zeros skipped before each non-zero: <tspan font-weight="bold">2, 4, 6</tspan>. With k = 2, a gap g is written as</text>
+  <text x="20" y="185" fill="#333">⌊g / 4⌋ ones, a 0, then the last 2 bits of g:</text>
+  <g font-family="Menlo, Consolas, monospace" font-size="15">
+    <text x="40" y="215">2 →</text><text x="80" y="215" fill="#1565c0">0|10</text>
+    <text x="200" y="215">4 →</text><text x="240" y="215" fill="#1565c0">10|00</text>
+    <text x="370" y="215">6 →</text><text x="410" y="215" fill="#1565c0">10|10</text>
+    <text x="540" y="215" fill="#222">= 11 bits (a bitmap needs 16)</text>
+  </g>
+
+  <!-- values -->
+  <text x="20" y="260" font-size="16" font-weight="bold" fill="#c2185b">2. Values → 8-bit codes with one scale per row</text>
+  <text x="20" y="285" fill="#333">scale = max |w| / 127 = 1.2 / 127 ≈ 0.00945 (stored as float16);  code = round(|w| / scale), sign kept apart</text>
+  <g font-family="Menlo, Consolas, monospace" font-size="15">
+    <text x="40" y="315">0.8 → 85</text><text x="230" y="315">−0.3 → −32</text><text x="440" y="315">1.2 → 127</text>
+  </g>
+
+  <!-- bitplanes -->
+  <text x="20" y="360" font-size="16" font-weight="bold" fill="#6a1b9a">3. Store the codes as bit layers over the non-zeros only</text>
+  <g font-family="Menlo, Consolas, monospace" font-size="14" fill="#222">
+    <text x="40" y="390">sign</text><text x="140" y="390">0 1 0</text>
+    <text x="40" y="410">plane 1</text><text x="140" y="410">1 0 1</text><text x="210" y="410" fill="#6a1b9a">← most significant: read first</text>
+    <text x="40" y="430">plane 2</text><text x="140" y="430">0 1 1</text>
+    <text x="40" y="450">…</text><text x="140" y="450">7 magnitude planes (85 = 1010101, 32 = 0100000, 127 = 1111111)</text>
+  </g>
+  <text x="600" y="385" fill="#333" font-size="13">Reading only the top p planes</text>
+  <text x="600" y="403" fill="#333" font-size="13">gives a coarser copy of the</text>
+  <text x="600" y="421" fill="#333" font-size="13">same weights.</text>
+  <text x="20" y="485" fill="#222" font-size="14" font-weight="bold">Row total: 11 position bits + 3 sign bits + 21 magnitude bits + 16-bit scale + 16-bit count ≈ 67 bits instead of 512.</text>
+</svg>

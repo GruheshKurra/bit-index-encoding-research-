@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Full re-run: synthetic matrices, multiply timing, progressive precision, GPT-2 perplexity, report.
+# Full run: synthetic matrices, multiply timing, progressive precision, GPT-2 perplexity, report.
 set -euo pipefail
 cd "$(dirname "$0")"
 python -W ignore run_synthetic.py
